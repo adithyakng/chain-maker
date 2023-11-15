@@ -16,6 +16,13 @@ let chain = makeChain(new State({"paramA1":"xA", "paramA2":"yA"}), attackDB);
 
 // Print the result
 console.log(JSON.stringify(chain, null, 2));
+//As expected, we get the following chains:
+// attack1->attack2->attack3
+// attack1->attack4
+
+// This is because:
+// The initState passed to the makeChain method is the same as the initState of attack1.
+// The initState for attack2 and attack4 are the same as the endSate of attack1.
 
 // Perform BFS on the generated JSON tree (chain)
 BFS(chain);
