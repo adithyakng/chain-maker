@@ -1,28 +1,20 @@
 import {State, Attack, AttackDB, makeChain, BFS} from "./makeChain.js";
+import { loadAttacks, loadState } from "./loadJSON.js";
 
-// Example usage:
+// Creates a State object by reading from a json file  
+const initState = loadState(process.argv[2])
 
-// Define the attacks (This is basically all the data from our Spreadsheet)
-let attack1 = new Attack("attackA", new State({"paramA1":"xA", "paramA2":"yA"}), new State({"paramA1":"xB", "paramA2":"yB"}));
-let attack2 = new Attack("attackB", new State({"paramA1":"xB", "paramA2":"yB"}), new State({"paramB1":"z", "paramB2":"z2", "paramB3": "z3"}));
-let attack3 = new Attack("attackC", new State({"paramB1":"z", "paramB2":"z2", "paramB3": "z3"}), new State({"paramC1":"z2", "paramC2":"z2"}));
-let attack4 = new Attack("attackD", new State({"paramA1":"xB", "paramA2":"yB"}), new State({"parmD1":"z", "parmD2":"z2"}));
+// Creates a Attack DB object by reading from a json file
+const attacks = loadAttacks(process.argv[3])
 
 // Create the attack DB
-let attackDB = new AttackDB([attack1, attack2, attack3, attack4]);
+let attackDB = new AttackDB(attacks);
 
 // Enter the state you want the chain to start from
-let chain = makeChain(new State({"paramA1":"xA", "paramA2":"yA"}), attackDB);
+let chain = makeChain(initState, attackDB);
 
 // Print the result
 console.log(JSON.stringify(chain, null, 2));
-//As expected, we get the following chains:
-// attack1->attack2->attack3
-// attack1->attack4
-
-// This is because:
-// The initState passed to the makeChain method is the same as the initState of attack1.
-// The initState for attack2 and attack4 are the same as the endSate of attack1.
 
 // Perform BFS on the generated JSON tree (chain)
 BFS(chain);
