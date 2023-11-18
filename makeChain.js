@@ -75,4 +75,8 @@ function BFS(tree) {
     }
 }
 
-export { State, Attack, AttackDB, makeChain, BFS };
+function hello (){
+    return 0;
+}
+
+export { State, Attack, AttackDB, makeChain, BFS , hello};

@@ -33,10 +33,14 @@ async function getAllDocuments() {
     // Find all documents in the collection
     const documents = await collection.find({}).toArray();
 
-    console.log('Documents in the collection:');
-    console.log(documents);
+
+
+    // Return the documents
+    return documents;
   } catch (error) {
     console.error('Error retrieving documents:', error);
+    // If an error occurs, you might want to throw the error or handle it accordingly
+    throw error;
   }
 }
 
@@ -69,32 +73,22 @@ async function closeConnection() {
   }
 }
 
-
-const test_attack =     {
-  "name": "attackE",
-  "initState": {
-    "paramA1": "x2",
-    "paramA2": "yy"
-  },
-  "endState": {
-    "paramB1": "zz",
-    "paramB3": "z3",
-    "paramB4": "z4"
-  }
-}
-
-// Example usage
-async function main() {
+async function getAttacks() {
    // Connect to MongoDB
   await connectToMongoDB();
 
   // Insert JSON data into the collection
-  await insertData(test_attack);
+  //await insertData(test_attack);
 
   // Get all documents from the collection
-  await getAllDocuments();
+  const attacks = await getAllDocuments();
+
+  console.log('Documents in the collection:');
+  console.log(attacks);
 
   await closeConnection();
+
+  return attacks;
 }
 
-main().catch(console.error);
+export{getAttacks}

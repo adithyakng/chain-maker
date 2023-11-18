@@ -1,50 +1,77 @@
-[
-    {
-      "name": "attackA",
-      "initState": {
-        "paramA1": "xA",
-        "paramA2": "yA"
-      },
-      "endState": {
-        "paramA1": "xB",
-        "paramA2": "yB"
-      }
-    },
-    {
-      "name": "attackB",
-      "initState": {
-        "paramA1": "xB",
-        "paramA2": "yB"
-      },
-      "endState": {
-        "paramB1": "z",
-        "paramB2": "z2",
-        "paramB3": "z3",
-        "paramB4": "z4"
-      }
-    },
-    {
-      "name": "attackC",
-      "initState": {
-        "paramB1": "z",
-        "paramB2": "z2",
-        "paramB3": "z3",
-        "paramB4": "z4"
-      },
-      "endState": {
-        "paramC1": "z2",
-        "paramC2": "z2"
-      }
-    },
-    {
-      "name": "attackD",
-      "initState": {
-        "paramA1": "xB",
-        "paramA2": "yB"
-      },
-      "endState": {
-        "parmD1": "z",
-        "parmD2": "z2"
-      }
-    }
-  ]
+[{
+  "_id": {
+    "$oid": "655841b7870e40447c3093fd"
+  },
+  "name": "attackA",
+  "initState": {
+    "paramA1": "xA",
+    "paramA2": "yA"
+  },
+  "endState": {
+    "paramA1": "xB",
+    "paramA2": "yB"
+  }
+},
+{
+  "_id": {
+    "$oid": "655841b7870e40447c3093fe"
+  },
+  "name": "attackB",
+  "initState": {
+    "paramA1": "xB",
+    "paramA2": "yB"
+  },
+  "endState": {
+    "paramB1": "z",
+    "paramB2": "z2",
+    "paramB3": "z3",
+    "paramB4": "z4"
+  }
+},
+{
+  "_id": {
+    "$oid": "655841b7870e40447c3093ff"
+  },
+  "name": "attackC",
+  "initState": {
+    "paramB1": "z",
+    "paramB2": "z2",
+    "paramB3": "z3",
+    "paramB4": "z4"
+  },
+  "endState": {
+    "paramB1": "z",
+    "paramB2": "z2",
+    "paramB4": "z4"
+  }
+},
+{
+  "_id": {
+    "$oid": "655841b7870e40447c309400"
+  },
+  "name": "attackD",
+  "initState": {
+    "paramB1": "z",
+    "paramB2": "z2",
+    "paramB3": "z3",
+    "paramB4": "z4"
+  },
+  "endState": {
+    "paramC1": "z2",
+    "paramC2": "z2"
+  }
+},
+{
+  "_id": {
+    "$oid": "655841b7870e40447c309401"
+  },
+  "name": "attackE",
+  "initState": {
+    "paramA1": "xB",
+    "paramA2": "yB"
+  },
+  "endState": {
+    "parmD1": "z",
+    "parmD2": "z2"
+  }
+}]

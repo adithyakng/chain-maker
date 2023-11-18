@@ -1,16 +1,16 @@
 import {State, Attack, AttackDB} from "./makeChain.js";
 import fs from 'fs';
 
- // Creates an array of Attack objects from a JSON file  
-function loadAttacks(filename){
+function loadAttacks(attackData){
+    // For Local Use
+    /*
     const jsonData = fs.readFileSync(filename, 'utf8');
-
     let attackData;
     try {
         attackData = JSON.parse(jsonData);
     } catch (error) {
         console.error(error);
-    }
+    }*/
 
     function createAttack(data) {
         return data.map(attack => {
