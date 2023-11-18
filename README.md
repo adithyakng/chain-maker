@@ -1,6 +1,7 @@
 # Example Usage:
 
 ``` node 
+npm install
 node main.js [PATH/TO/INITIAL_STATE.json] [PATH/TO/ATTACK_DB.json]
 ```
 
