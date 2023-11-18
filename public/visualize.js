@@ -4,12 +4,10 @@ const width = window.innerWidth;
 const height = window.innerHeight;
 const nodeRadius = 30;
 
-
 fetch('/getJsonArray')
   .then(response => response.json())
   .then(data => {
     const jsonArray = data;
-    // Use jsonArray in your visualization
     const colorScale = d3.scaleOrdinal(d3.schemeCategory10);
 
     const svg = select('body').append('svg')
