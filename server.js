@@ -45,6 +45,7 @@ app.get('/makeChain', async (req, res) => {
 
     console.log(chain);
 
+    //Traverse the chain using BFS algorithm
     //BFS(chain);
     res.json(chain);
   } catch (error) {
