@@ -1,7 +1,11 @@
 As expected, we get the following chains:
 
+For initState1.json, we get all the attacks that start from A:
 attackA->attackB->attackC
-
 attackA->attackB->attackD
-
 attackA->attackE
+
+For initState2.json, we get all the attacks that start from B and E:
+attackB->attackC
+attackB->attackD
+attackE

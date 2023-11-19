@@ -2,6 +2,10 @@ import express from 'express';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
 
+import {AttackDB, makeChain, BFS} from "./makeChain.js";
+import { loadAttacks, loadState } from "./loadJSON.js";
+import { getAttacks } from "./mongoDB.js";
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
@@ -12,8 +16,8 @@ const PORT = process.env.PORT || 3000;
 app.use(express.static(join(__dirname, 'public')));
 
 // Define an endpoint to send the index.html page
-app.get('/', (req, res) => {
-  res.sendFile(join(__dirname, 'public', 'index.html'));
+app.get('/visualize', (req, res) => {
+  res.sendFile(join(__dirname, 'public', 'visualize.html'));
 });
 
 // Define an endpoint to send the visualize.js script
@@ -21,162 +25,32 @@ app.get('/visualize.js', (req, res) => {
   res.sendFile(join(__dirname, 'public', 'visualize.js'));
 });
 
-// This is the output of makeChain function 
-const jsonArray = [
-    [
-      {
-        "name": "attackA",
-        "initState": {
-          "params": {
-            "paramA1": "xA",
-            "paramA2": "yA"
-          }
-        },
-        "endState": {
-          "params": {
-            "paramA1": "xB",
-            "paramA2": "yB"
-          }
-        }
-      },
-      {
-        "name": "attackB",
-        "initState": {
-          "params": {
-            "paramA1": "xB",
-            "paramA2": "yB"
-          }
-        },
-        "endState": {
-          "params": {
-            "paramB1": "z",
-            "paramB2": "z2",
-            "paramB3": "z3",
-            "paramB4": "z4"
-          }
-        }
-      },
-      {
-        "name": "attackC",
-        "initState": {
-          "params": {
-            "paramB1": "z",
-            "paramB2": "z2",
-            "paramB3": "z3",
-            "paramB4": "z4"
-          }
-        },
-        "endState": {
-          "params": {
-            "paramB1": "z",
-            "paramB2": "z2",
-            "paramB4": "z4"
-          }
-        }
-      },
-      {
-        "name": "End"
-      }
-    ],
-    [
-      {
-        "name": "attackA",
-        "initState": {
-          "params": {
-            "paramA1": "xA",
-            "paramA2": "yA"
-          }
-        },
-        "endState": {
-          "params": {
-            "paramA1": "xB",
-            "paramA2": "yB"
-          }
-        }
-      },
-      {
-        "name": "attackB",
-        "initState": {
-          "params": {
-            "paramA1": "xB",
-            "paramA2": "yB"
-          }
-        },
-        "endState": {
-          "params": {
-            "paramB1": "z",
-            "paramB2": "z2",
-            "paramB3": "z3",
-            "paramB4": "z4"
-          }
-        }
-      },
-      {
-        "name": "attackD",
-        "initState": {
-          "params": {
-            "paramB1": "z",
-            "paramB2": "z2",
-            "paramB3": "z3",
-            "paramB4": "z4"
-          }
-        },
-        "endState": {
-          "params": {
-            "paramC1": "z2",
-            "paramC2": "z2"
-          }
-        }
-      },
-      {
-        "name": "End"
-      }
-    ],
-    [
-      {
-        "name": "attackA",
-        "initState": {
-          "params": {
-            "paramA1": "xA",
-            "paramA2": "yA"
-          }
-        },
-        "endState": {
-          "params": {
-            "paramA1": "xB",
-            "paramA2": "yB"
-          }
-        }
-      },
-      {
-        "name": "attackE",
-        "initState": {
-          "params": {
-            "paramA1": "xB",
-            "paramA2": "yB"
-          }
-        },
-        "endState": {
-          "params": {
-            "parmD1": "z",
-            "parmD2": "z2"
-          }
-        }
-      },
-      {
-        "name": "End"
-      }
-    ]
-];
-  
+// Define an endpoint to send the Chain to the client
+app.get('/makeChain', async (req, res) => {
+  try {
+    // Get init state
+    const initState = loadState('.\\tests\\initState1.json');
 
-// Define an endpoint to send the jsonArray to the client
-app.get('/getJsonArray', (req, res) => {
-  res.json(jsonArray);
-  //To Do 
-  // Get init State from the user
-  // Call makeChain
-  // Send output of makeChain as JSON object
+    // Queries the database to get a list of attacks as JSON data
+    const documents = await getAttacks();
+
+    // Creates an array of Attack objects from the JSON data  
+    const attacks = loadAttacks(documents);
+
+    // Creates the attack DB
+    let attackDB = new AttackDB(attacks);
+
+    // Creates a chain starting from the given initial state
+    let chain = makeChain(initState, attackDB);
+
+    console.log(chain);
+
+    //BFS(chain);
+    res.json(chain);
+  } catch (error) {
+    console.error('Error:', error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
 });
 
 app.listen(PORT, () => {

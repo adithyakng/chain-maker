@@ -5,7 +5,7 @@ const height = window.innerHeight;
 const nodeRadius = 30;
 
 // Get the chain created the server and display it
-fetch('/getJsonArray')
+fetch('/makeChain')
   .then(response => response.json())
   .then(data => {
     const jsonArray = data;

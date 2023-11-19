@@ -3,7 +3,7 @@ import { loadAttacks, loadState } from "./loadJSON.js";
 import { getAttacks } from "./mongoDB.js";
 
 // Creates a State object by reading from a json file  
-const initState = loadState(process.argv[2])
+const initState = loadState('.\\tests\\initState.json')
 
 // Queries the database to get a list of attacks as JSON data
 const documents = await getAttacks();
