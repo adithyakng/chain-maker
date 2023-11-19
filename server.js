@@ -21,7 +21,7 @@ app.get('/visualize.js', (req, res) => {
   res.sendFile(join(__dirname, 'public', 'visualize.js'));
 });
 
-
+// This is the output of makeChain function 
 const jsonArray = [
     [
       {
@@ -173,6 +173,10 @@ const jsonArray = [
 // Define an endpoint to send the jsonArray to the client
 app.get('/getJsonArray', (req, res) => {
   res.json(jsonArray);
+  //To Do 
+  // Get init State from the user
+  // Call makeChain
+  // Send output of makeChain as JSON object
 });
 
 app.listen(PORT, () => {
