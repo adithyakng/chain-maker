@@ -18,7 +18,7 @@ let attackDB = new AttackDB(attacks);
 let chain = makeChain(initState, attackDB);
 
 // Print the result
-//console.log(JSON.stringify(chain, null, 2));
+console.log(JSON.stringify(chain, null, 2));
 
 // Perform BFS on the generated JSON tree (chain)
 // BFS(chain);
