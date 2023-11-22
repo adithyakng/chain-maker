@@ -1,77 +1,853 @@
-[{
-  "_id": {
-    "$oid": "655841b7870e40447c3093fd"
-  },
-  "name": "attackA",
-  "initState": {
-    "paramA1": "xA",
-    "paramA2": "yA"
-  },
-  "endState": {
-    "paramA1": "xB",
-    "paramA2": "yB"
-  }
-},
-{
-  "_id": {
-    "$oid": "655841b7870e40447c3093fe"
-  },
-  "name": "attackB",
-  "initState": {
-    "paramA1": "xB",
-    "paramA2": "yB"
-  },
-  "endState": {
-    "paramB1": "z",
-    "paramB2": "z2",
-    "paramB3": "z3",
-    "paramB4": "z4"
-  }
-},
-{
-  "_id": {
-    "$oid": "655841b7870e40447c3093ff"
-  },
-  "name": "attackC",
-  "initState": {
-    "paramB1": "z",
-    "paramB2": "z2",
-    "paramB3": "z3",
-    "paramB4": "z4"
-  },
-  "endState": {
-    "paramB1": "z",
-    "paramB2": "z2",
-    "paramB4": "z4"
-  }
-},
-{
-  "_id": {
-    "$oid": "655841b7870e40447c309400"
-  },
-  "name": "attackD",
-  "initState": {
-    "paramB1": "z",
-    "paramB2": "z2",
-    "paramB3": "z3",
-    "paramB4": "z4"
-  },
-  "endState": {
-    "paramC1": "z2",
-    "paramC2": "z2"
-  }
-},
-{
-  "_id": {
-    "$oid": "655841b7870e40447c309401"
-  },
-  "name": "attackE",
-  "initState": {
-    "paramA1": "xB",
-    "paramA2": "yB"
-  },
-  "endState": {
-    "parmD1": "z",
-    "parmD2": "z2"
-  }
-}]
+[
+    {
+        "_id": {
+            "$oid": "0x7fcea30e4343e2a8"
+        },
+        "name": "Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets",
+        "initState": {
+            "Bluetooth Classic (BR/EDR) RCE": "Bluetooth Classic (BR/EDR) RCE"
+        },
+        "endState": {
+            "": ""
+        },
+        "initKnowledge": [
+            "Bluetooth Classic (BR/EDR) MAC Address",
+            "Bluetooth Low Energy (BLE) MAC Address"
+        ],
+        "endKnowledge": [
+            ""
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Bluetooth Classic (BR/EDR) radio"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "-0x3d1cc00b60e1b57b"
+        },
+        "name": "Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets",
+        "initState": {
+            "Bluetooth Classic (BR/EDR) RCE": "Bluetooth Classic (BR/EDR) RCE"
+        },
+        "endState": {
+            "": ""
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            ""
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Bluetooth Classic (BR/EDR) radio"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "-0x75e4fb2e9ac634ae"
+        },
+        "name": "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeFye2VjT3x_KDJkrLGrfArgWDV2nZH9pHGNGUb0aEGivL__w/formResponse",
+        "initState": {
+            "Bluetooth Classic (BR/EDR) Discoverable": "Bluetooth Classic (BR/EDR) Discoverable"
+        },
+        "endState": {
+            "": ""
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            ""
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Bluetooth Classic (BR/EDR) radio"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "0x211057272ad24fb"
+        },
+        "name": "Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets",
+        "initState": {
+            "Bluetooth Low Energy (BLE) Connectable": "Bluetooth Low Energy (BLE) Connectable",
+            "Bluetooth Low Energy (BLE) Discoverable": "Bluetooth Low Energy (BLE) Discoverable"
+        },
+        "endState": {
+            "": ""
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            ""
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Bluetooth Low Energy (BLE) radio"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "-0x6ee009aec9c6ec02"
+        },
+        "name": "BluePIL: a Bluetooth-based Passive Localization Method",
+        "initState": {
+            "Bluetooth Classic (BR/EDR) Connectable": "Bluetooth Classic (BR/EDR) Connectable",
+            "Bluetooth Classic (BR/EDR) Discoverable": "Bluetooth Classic (BR/EDR) Discoverable",
+            "Bluetooth Classic (BR/EDR) Paired": "Bluetooth Classic (BR/EDR) Paired",
+            "Bluetooth Classic (BR/EDR) Transmitting": "Bluetooth Classic (BR/EDR) Transmitting"
+        },
+        "endState": {
+            "": ""
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            ""
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Bluetooth Classic (BR/EDR) radio"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "0x3828fb0cb2aeaf66"
+        },
+        "name": "Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets",
+        "initState": {
+            "Bluetooth Classic (BR/EDR) Paired": "Bluetooth Classic (BR/EDR) Paired",
+            "Bluetooth Classic (BR/EDR) Transmitting": "Bluetooth Classic (BR/EDR) Transmitting"
+        },
+        "endState": {
+            "": ""
+        },
+        "initKnowledge": [
+            "Bluetooth Classic (BR/EDR) MAC Address"
+        ],
+        "endKnowledge": [
+            ""
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Bluetooth Classic (BR/EDR) radio"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "0x1f6e7b255c76864a"
+        },
+        "name": "Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets",
+        "initState": {
+            "Bluetooth Classic (BR/EDR) Idle": "Bluetooth Classic (BR/EDR) Idle"
+        },
+        "endState": {
+            "": ""
+        },
+        "initKnowledge": [
+            "Bluetooth Classic (BR/EDR) MAC Address"
+        ],
+        "endKnowledge": [
+            ""
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Bluetooth Classic (BR/EDR) radio"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "-0x53059c2fcfba0ea6"
+        },
+        "name": "Even Black Cats Cannot Stay Hidden in the Dark: Full-band De-anonymization of Bluetooth Classic Devices",
+        "initState": {
+            "Bluetooth Classic (BR/EDR) Transmitting": "Bluetooth Classic (BR/EDR) Transmitting"
+        },
+        "endState": {
+            "": ""
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            ""
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "-0x4bdef9aa6480d4be"
+        },
+        "name": "BIAS: Bluetooth Impersonation AttackS",
+        "initState": {
+            "Bluetooth Classic (BR/EDR) Connectable": "Bluetooth Classic (BR/EDR) Connectable",
+            "Bluetooth Classic (BR/EDR) Discoverable": "Bluetooth Classic (BR/EDR) Discoverable"
+        },
+        "endState": {
+            "Bluetooth Classic (BR/EDR) Connectable": "Bluetooth Classic (BR/EDR) Connectable",
+            "Bluetooth Classic (BR/EDR) Discoverable": "Bluetooth Classic (BR/EDR) Discoverable",
+            "Bluetooth Classic (BR/EDR) Paired": "Bluetooth Classic (BR/EDR) Paired"
+        },
+        "initKnowledge": [
+            "Bluetooth Classic (BR/EDR) MAC Address",
+            "Bluetooth Classic (BR/EDR) MAC Address LAP",
+            "Bluetooth Classic (BR/EDR) MAC Address UAP"
+        ],
+        "endKnowledge": [
+            ""
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Bluetooth Classic (BR/EDR) radio"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "0x40127a81f50c2cb7"
+        },
+        "name": "The KNOB is Broken: Exploiting Low Entropy in the Encryption Key Negotiation Of Bluetooth BR/EDR",
+        "initState": {
+            "Bluetooth Classic (BR/EDR) Connectable": "Bluetooth Classic (BR/EDR) Connectable",
+            "Bluetooth Classic (BR/EDR) Discoverable": "Bluetooth Classic (BR/EDR) Discoverable",
+            "Bluetooth Classic (BR/EDR) Paired": "Bluetooth Classic (BR/EDR) Paired"
+        },
+        "endState": {
+            "Bluetooth Classic (BR/EDR) Connectable": "Bluetooth Classic (BR/EDR) Connectable",
+            "Bluetooth Classic (BR/EDR) Discoverable": "Bluetooth Classic (BR/EDR) Discoverable",
+            "Bluetooth Classic (BR/EDR) Paired": "Bluetooth Classic (BR/EDR) Paired"
+        },
+        "initKnowledge": [
+            "Bluetooth Classic (BR/EDR) MAC Address",
+            "Bluetooth Classic (BR/EDR) MAC Address LAP",
+            "Bluetooth Classic (BR/EDR) MAC Address UAP"
+        ],
+        "endKnowledge": [
+            "Bluetooth Encryption Key (Kc)"
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Bluetooth Classic (BR/EDR) radio"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "-0x24352af99ab21003"
+        },
+        "name": "Cracking the Bluettoth Pin",
+        "initState": {
+            "Bluetooth Classic (BR/EDR) Discoverable": "Bluetooth Classic (BR/EDR) Discoverable",
+            "Bluetooth Classic (BR/EDR) Transmitting": "Bluetooth Classic (BR/EDR) Transmitting"
+        },
+        "endState": {
+            "Bluetooth Classic (BR/EDR) Connectable": "Bluetooth Classic (BR/EDR) Connectable",
+            "Bluetooth Classic (BR/EDR) Discoverable": "Bluetooth Classic (BR/EDR) Discoverable"
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            "Bluetooh PIN"
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Bluetooth Classic (BR/EDR) radio"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "-0x4a0b316d97e51f6"
+        },
+        "name": "Blacktooth: Breaking through the Defense of Bluetooth in Silence",
+        "initState": {
+            "Bluetooth Classic (BR/EDR) Discoverable": "Bluetooth Classic (BR/EDR) Discoverable",
+            "Bluetooth Classic (BR/EDR) Transmitting": "Bluetooth Classic (BR/EDR) Transmitting"
+        },
+        "endState": {
+            "Bluetooth Classic (BR/EDR) Connectable": "Bluetooth Classic (BR/EDR) Connectable",
+            "Bluetooth Classic (BR/EDR) Paired": "Bluetooth Classic (BR/EDR) Paired"
+        },
+        "initKnowledge": [
+            "Bluetooth Classic (BR/EDR) MAC Address"
+        ],
+        "endKnowledge": [
+            "Bluetooth Encryption Key (Kc)"
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Bluetooth Classic (BR/EDR) radio"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "0x209774ce87150ab8"
+        },
+        "name": "Linking Bluetooth LE & Classic and Implications for Privacy-Preserving Bluetooth-Based Protocols",
+        "initState": {
+            "Bluetooth Classic (BR/EDR) Paired": "Bluetooth Classic (BR/EDR) Paired",
+            "Bluetooth Classic (BR/EDR) Transmitting": "Bluetooth Classic (BR/EDR) Transmitting",
+            "Bluetooth Low Energy (BLE) Connectable": "Bluetooth Low Energy (BLE) Connectable",
+            "Bluetooth Low Energy (BLE) Discoverable": "Bluetooth Low Energy (BLE) Discoverable",
+            "Bluetooth Low Energy (BLE) Paired": "Bluetooth Low Energy (BLE) Paired",
+            "Bluetooth Low Energy (BLE) Transmitting": "Bluetooth Low Energy (BLE) Transmitting"
+        },
+        "endState": {
+            "Bluetooth Classic (BR/EDR) Paired": "Bluetooth Classic (BR/EDR) Paired",
+            "Bluetooth Classic (BR/EDR) Transmitting": "Bluetooth Classic (BR/EDR) Transmitting",
+            "Bluetooth Low Energy (BLE) Connectable": "Bluetooth Low Energy (BLE) Connectable",
+            "Bluetooth Low Energy (BLE) Discoverable": "Bluetooth Low Energy (BLE) Discoverable",
+            "Bluetooth Low Energy (BLE) Paired": "Bluetooth Low Energy (BLE) Paired",
+            "Bluetooth Low Energy (BLE) Transmitting": "Bluetooth Low Energy (BLE) Transmitting"
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            ""
+        ],
+        "hardwareRequirements": [
+            "Software-Defined Radio (SDR)",
+            "Bluetooth Classic (BR/EDR) radio",
+            "Bluetooth Low Energy (BLE) radio"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "0x2c796c3ce9f3ab8"
+        },
+        "name": "Location leaks on the GSM air interface",
+        "initState": {
+            "GSM (2G) Authenticated": "GSM (2G) Authenticated",
+            "GSM (2G) TMSI allocated": "GSM (2G) TMSI allocated"
+        },
+        "endState": {
+            "GSM (2G) Authenticated": "GSM (2G) Authenticated",
+            "GSM (2G) TMSI allocated": "GSM (2G) TMSI allocated"
+        },
+        "initKnowledge": [
+            "GSM (2G) TMSI"
+        ],
+        "endKnowledge": [
+            ""
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "GSM (2G) radio",
+            "GSM (2G) Base Station"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "-0x673586ceebf1d2cf"
+        },
+        "name": "LTESniffer: An Open-source LTE Downlink/Uplink Eavesdropper",
+        "initState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated",
+            "LTE (4G) Authenticated": "LTE (4G) Authenticated",
+            "LTE (4G) Communicating using AES": "LTE (4G) Communicating using AES",
+            "LTE (4G) Communicating using ZUC": "LTE (4G) Communicating using ZUC"
+        },
+        "endState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated",
+            "LTE (4G) Authenticated": "LTE (4G) Authenticated",
+            "LTE (4G) Communicating using AES": "LTE (4G) Communicating using AES",
+            "LTE (4G) Communicating using ZUC": "LTE (4G) Communicating using ZUC"
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            "LTE (4G) IMSI",
+            "LTE (4G) TMSI"
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "-0x4f23c262b14d8e94"
+        },
+        "name": "LTrack: Stealthy Tracking of Mobile Phones in LTE",
+        "initState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
+        },
+        "endState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            "LTE (4G) IMSI",
+            "LTE (4G) TMSI"
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "0x28f46340d68383bf"
+        },
+        "name": "AdaptOver: Adaptive Overshadowing Attacks in Cellular Networks",
+        "initState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
+        },
+        "endState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            ""
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "0x3f4c7c8b9fbc749"
+        },
+        "name": "DoLTEst: In-depth Downlink Negative Testing Framework for LTE Devices",
+        "initState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated",
+            "LTE (4G) Authenticated": "LTE (4G) Authenticated",
+            "LTE (4G) Communicating using AES": "LTE (4G) Communicating using AES",
+            "LTE (4G) Communicating using ZUC": "LTE (4G) Communicating using ZUC"
+        },
+        "endState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated",
+            "LTE (4G) Authenticated": "LTE (4G) Authenticated",
+            "LTE (4G) Communicating using AES": "LTE (4G) Communicating using AES",
+            "LTE (4G) Communicating using ZUC": "LTE (4G) Communicating using ZUC"
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            "LTE (4G) IMSI",
+            "LTE (4G) TMSI"
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "-0x4d9ae043c6ec177"
+        },
+        "name": "DoLTEst: In-depth Downlink Negative Testing Framework for LTE Devices",
+        "initState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
+        },
+        "endState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            "LTE (4G) IMSI",
+            "LTE (4G) TMSI"
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "0x3ecb8649692a5c53"
+        },
+        "name": "DoLTEst: In-depth Downlink Negative Testing Framework for LTE Devices",
+        "initState": {
+            "LTE (4G) Authenticated": "LTE (4G) Authenticated"
+        },
+        "endState": {
+            "LTE (4G) Authenticated": "LTE (4G) Authenticated"
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            "LTE (4G) IMSI",
+            "LTE (4G) TMSI"
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "0x7db3089a44090807"
+        },
+        "name": "DoLTEst: In-depth Downlink Negative Testing Framework for LTE Devices",
+        "initState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
+        },
+        "endState": {
+            "LTE (4G) Authenticated": "LTE (4G) Authenticated"
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            ""
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "-0x4d9ae043c6ec177"
+        },
+        "name": "DoLTEst: In-depth Downlink Negative Testing Framework for LTE Devices",
+        "initState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
+        },
+        "endState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            "LTE (4G) IMSI",
+            "LTE (4G) TMSI"
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "0x4398911690aafb9e"
+        },
+        "name": "Practical Attacks Against Privacy and Availability in 4G/LTE Mobile Communication Systems",
+        "initState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated",
+            "LTE (4G) Authenticated": "LTE (4G) Authenticated"
+        },
+        "endState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated",
+            "LTE (4G) Authenticated": "LTE (4G) Authenticated"
+        },
+        "initKnowledge": [
+            "LTE (4G) IMSI",
+            "LTE (4G) TMSI"
+        ],
+        "endKnowledge": [
+            "User Location range",
+            "User Location - Precise"
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Software-Defined Radio (SDR)",
+            "LTE (4G) radio",
+            "LTE (4G) Base Station"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "0x5557ed61c91432fe"
+        },
+        "name": "Practical Attacks Against Privacy and Availability in 4G/LTE Mobile Communication Systems",
+        "initState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
+        },
+        "endState": {
+            "GSM (2G) Unauthenticated": "GSM (2G) Unauthenticated",
+            "CDMA (2G) Unauthenticated": "CDMA (2G) Unauthenticated",
+            "UMTS (3G) Unauthenticated": "UMTS (3G) Unauthenticated"
+        },
+        "initKnowledge": [
+            "LTE (4G) IMSI",
+            "LTE (4G) TMSI"
+        ],
+        "endKnowledge": [
+            "GSM (2G) IMSI",
+            "GSM (2G) TMSI",
+            "UMTS (3G) IMSI",
+            "UMTS (3G) TMSI"
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Software-Defined Radio (SDR)",
+            "LTE (4G) radio",
+            "LTE (4G) Base Station"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "-0x2da8f6f0e7f24ee7"
+        },
+        "name": "SigUnder: a Stealthy 5G Low Power Attack and Defenses",
+        "initState": {
+            "NR (5G) Unauthenticated": "NR (5G) Unauthenticated"
+        },
+        "endState": {
+            "NR (5G) Unauthenticated": "NR (5G) Unauthenticated"
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            "NR (5G-SA) SUPI",
+            "NR (5G-SA) SUCI",
+            "NR (5G-SA) TMSI"
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "-0x19c463a6241e5cc3"
+        },
+        "name": "Breaking LTE on Layer Two",
+        "initState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated",
+            "LTE (4G) Authenticated": "LTE (4G) Authenticated",
+            "LTE (4G) Communicating using AES": "LTE (4G) Communicating using AES"
+        },
+        "endState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated",
+            "LTE (4G) Authenticated": "LTE (4G) Authenticated",
+            "LTE (4G) Communicating using AES": "LTE (4G) Communicating using AES"
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            "LTE (4G) IMSI",
+            "LTE (4G) TMSI"
+        ],
+        "hardwareRequirements": [
+            "Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "-0x36e12d1d924ad546"
+        },
+        "name": "Breaking LTE on Layer Two",
+        "initState": {
+            "LTE (4G) Authenticated": "LTE (4G) Authenticated"
+        },
+        "endState": {
+            "LTE (4G) Authenticated": "LTE (4G) Authenticated"
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            "LTE (4G) TMSI"
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "0x7b338fd340c7e9db"
+        },
+        "name": "Breaking LTE on Layer Two",
+        "initState": {
+            "LTE (4G) Communicating using AES": "LTE (4G) Communicating using AES"
+        },
+        "endState": {
+            "LTE (4G) Communicating using AES": "LTE (4G) Communicating using AES"
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            ""
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "-0x24ec4816f21e4150"
+        },
+        "name": "SMS of Death: from analyzing to attacking mobile phones on a large scale",
+        "initState": {
+            "GSM (2G) Authenticated": "GSM (2G) Authenticated",
+            "GSM (2G) Communicating using A5/0": "GSM (2G) Communicating using A5/0"
+        },
+        "endState": {
+            "GSM (2G) Authenticated": "GSM (2G) Authenticated",
+            "GSM (2G) Communicating using A5/0": "GSM (2G) Communicating using A5/0"
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            ""
+        ],
+        "hardwareRequirements": [
+            "GSM (2G) radio",
+            "GSM (2G) Base Station"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "0x31439cc7e912fb"
+        },
+        "name": "Practical Attacks Against WEP and WPA",
+        "initState": {
+            "Wi-Fi Authenticated": "Wi-Fi Authenticated",
+            "Wi-Fi Communicating using WPA": "Wi-Fi Communicating using WPA"
+        },
+        "endState": {
+            "Wi-Fi Authenticated": "Wi-Fi Authenticated",
+            "Wi-Fi Communicating using WPA": "Wi-Fi Communicating using WPA",
+            "Wi-Fi Communicating using WEP": "Wi-Fi Communicating using WEP"
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            ""
+        ],
+        "hardwareRequirements": [
+            ""
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "0x69f1b6d8c4e468bc"
+        },
+        "name": "The final nail in WEP's coffin",
+        "initState": {
+            "Wi-Fi Authenticated": "Wi-Fi Authenticated"
+        },
+        "endState": {
+            "Wi-Fi Authenticated": "Wi-Fi Authenticated"
+        },
+        "initKnowledge": [
+            "Wi-Fi IP Address",
+            "Wi-Fi MAC Address"
+        ],
+        "endKnowledge": [
+            "Wi-Fi IP Address",
+            "Wi-Fi MAC Address"
+        ],
+        "hardwareRequirements": [
+            "Computer"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "-0x75572c784ab610db"
+        },
+        "name": "The final nail in WEP's coffin",
+        "initState": {
+            "Wi-Fi Authenticated": "Wi-Fi Authenticated"
+        },
+        "endState": {
+            "Wi-Fi Authenticated": "Wi-Fi Authenticated"
+        },
+        "initKnowledge": [
+            "Wi-Fi IP Address",
+            "Wi-Fi MAC Address"
+        ],
+        "endKnowledge": [
+            "Wi-Fi decrypted traffic"
+        ],
+        "hardwareRequirements": [
+            "Computer"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "-0x79743c354b531757"
+        },
+        "name": "Using the Fluhrer, Mantin, and Shamir Attack to Break WEP",
+        "initState": {
+            "Wi-Fi Authenticated": "Wi-Fi Authenticated"
+        },
+        "endState": {
+            "Wi-Fi Authenticated": "Wi-Fi Authenticated",
+            "Wi-Fi Communicating using WEP": "Wi-Fi Communicating using WEP"
+        },
+        "initKnowledge": [
+            ""
+        ],
+        "endKnowledge": [
+            "Wi-Fi decrypted traffic"
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Wi-Fi monitor"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "0x52da15b783e1e85b"
+        },
+        "name": "Key Reinstallation Attacks: Forcing Nonce Reuse in WPA2",
+        "initState": {
+            "Wi-Fi Communicating using WPA2": "Wi-Fi Communicating using WPA2"
+        },
+        "endState": {
+            "Wi-Fi Communicating using WPA2": "Wi-Fi Communicating using WPA2"
+        },
+        "initKnowledge": [
+            "Wi-Fi IP Address",
+            "Wi-Fi MAC Address"
+        ],
+        "endKnowledge": [
+            "Wi-Fi decrypted traffic"
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Wi-Fi monitor"
+        ]
+    },
+    {
+        "_id": {
+            "$oid": "-0x1f7a4efba2deb088"
+        },
+        "name": "Plaintext Recovery Attacks Against WPA/TKIP",
+        "initState": {
+            "Wi-Fi Communicating using WPA": "Wi-Fi Communicating using WPA"
+        },
+        "endState": {
+            "Wi-Fi Communicating using WPA": "Wi-Fi Communicating using WPA"
+        },
+        "initKnowledge": [
+            "Wi-Fi IP Address",
+            "Wi-Fi MAC Address"
+        ],
+        "endKnowledge": [
+            "Wi-Fi decrypted traffic"
+        ],
+        "hardwareRequirements": [
+            "Computer",
+            "Wi-Fi radio"
+        ]
+    }
+]
