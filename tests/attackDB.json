@@ -1,7 +1,7 @@
 [
     {
         "_id": {
-            "$oid": "719144821bc98464"
+            "$oid": "7b4c4cd555dc83efffffffff"
         },
         "name": "Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets",
         "initState": {
@@ -24,7 +24,7 @@
     },
     {
         "_id": {
-            "$oid": "94e5b49a3fc1010"
+            "$oid": "3133278fcef41648ffffffff"
         },
         "name": "Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets",
         "initState": {
@@ -46,7 +46,7 @@
     },
     {
         "_id": {
-            "$oid": "37be2f3f6b23aa9e"
+            "$oid": "755e90c9e8cc1218ffffffff"
         },
         "name": "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeFye2VjT3x_KDJkrLGrfArgWDV2nZH9pHGNGUb0aEGivL__w/formResponse",
         "initState": {
@@ -68,7 +68,7 @@
     },
     {
         "_id": {
-            "$oid": "3853fff7a2b7e2ad"
+            "$oid": "2f85fc08956709d9ffffffff"
         },
         "name": "Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets",
         "initState": {
@@ -91,7 +91,7 @@
     },
     {
         "_id": {
-            "$oid": "614ef4e91b5be092"
+            "$oid": "4aeae8fb6e5ea0d2ffffffff"
         },
         "name": "BluePIL: a Bluetooth-based Passive Localization Method",
         "initState": {
@@ -116,7 +116,7 @@
     },
     {
         "_id": {
-            "$oid": "5508bdf8ea361a88"
+            "$oid": "7c8c13092cc3ecadffffffff"
         },
         "name": "Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets",
         "initState": {
@@ -139,7 +139,7 @@
     },
     {
         "_id": {
-            "$oid": "cb8d26ab79a93ea"
+            "$oid": "66b6646211310f19ffffffff"
         },
         "name": "Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets",
         "initState": {
@@ -161,7 +161,7 @@
     },
     {
         "_id": {
-            "$oid": "2d8605a69860f7af"
+            "$oid": "24df156512fefccbffffffff"
         },
         "name": "Even Black Cats Cannot Stay Hidden in the Dark: Full-band De-anonymization of Bluetooth Classic Devices",
         "initState": {
@@ -183,7 +183,7 @@
     },
     {
         "_id": {
-            "$oid": "7be72115199da935"
+            "$oid": "1a5d4dc8fe68d5d6ffffffff"
         },
         "name": "BIAS: Bluetooth Impersonation AttackS",
         "initState": {
@@ -210,7 +210,7 @@
     },
     {
         "_id": {
-            "$oid": "eb933195870eba5"
+            "$oid": "167697ab93b5d40fffffffff"
         },
         "name": "The KNOB is Broken: Exploiting Low Entropy in the Encryption Key Negotiation Of Bluetooth BR/EDR",
         "initState": {
@@ -238,7 +238,7 @@
     },
     {
         "_id": {
-            "$oid": "4103660e225ef8f8"
+            "$oid": "5c9d5d4bb045fc1ffffffff"
         },
         "name": "Cracking the Bluettoth Pin",
         "initState": {
@@ -262,7 +262,7 @@
     },
     {
         "_id": {
-            "$oid": "1d6137897b970757"
+            "$oid": "3580ac3b2c9f3b72ffffffff"
         },
         "name": "Blacktooth: Breaking through the Defense of Bluetooth in Silence",
         "initState": {
@@ -286,7 +286,7 @@
     },
     {
         "_id": {
-            "$oid": "54160b5c5022ea0d"
+            "$oid": "eedaa43d073969dffffffff"
         },
         "name": "Linking Bluetooth LE & Classic and Implications for Privacy-Preserving Bluetooth-Based Protocols",
         "initState": {
@@ -319,7 +319,7 @@
     },
     {
         "_id": {
-            "$oid": "633703ea7cce3d2b"
+            "$oid": "1b987ca67f006c3cffffffff"
         },
         "name": "Location leaks on the GSM air interface",
         "initState": {
@@ -344,7 +344,7 @@
     },
     {
         "_id": {
-            "$oid": "78d36806a9796ff7"
+            "$oid": "29ab7f1d127cecb4ffffffff"
         },
         "name": "LTESniffer: An Open-source LTE Downlink/Uplink Eavesdropper",
         "initState": {
@@ -373,7 +373,7 @@
     },
     {
         "_id": {
-            "$oid": "1ad075a94198a83e"
+            "$oid": "707ef67870de22c1ffffffff"
         },
         "name": "LTrack: Stealthy Tracking of Mobile Phones in LTE",
         "initState": {
@@ -396,7 +396,7 @@
     },
     {
         "_id": {
-            "$oid": "f9d19c2bfdff9db"
+            "$oid": "5b0967e03565668ffffffff"
         },
         "name": "AdaptOver: Adaptive Overshadowing Attacks in Cellular Networks",
         "initState": {
@@ -418,7 +418,7 @@
     },
     {
         "_id": {
-            "$oid": "76014b2f6bf04a40"
+            "$oid": "4ba974e3c61d877cffffffff"
         },
         "name": "DoLTEst: In-depth Downlink Negative Testing Framework for LTE Devices",
         "initState": {
@@ -447,7 +447,7 @@
     },
     {
         "_id": {
-            "$oid": "3341509496378721"
+            "$oid": "47de788e82634fb2ffffffff"
         },
         "name": "DoLTEst: In-depth Downlink Negative Testing Framework for LTE Devices",
         "initState": {
@@ -470,7 +470,7 @@
     },
     {
         "_id": {
-            "$oid": "874811b1ad9a813"
+            "$oid": "2cebcc95f4dded18ffffffff"
         },
         "name": "DoLTEst: In-depth Downlink Negative Testing Framework for LTE Devices",
         "initState": {
@@ -493,7 +493,7 @@
     },
     {
         "_id": {
-            "$oid": "173865e002a08a6a"
+            "$oid": "20793fc1328ee99affffffff"
         },
         "name": "DoLTEst: In-depth Downlink Negative Testing Framework for LTE Devices",
         "initState": {
@@ -515,7 +515,7 @@
     },
     {
         "_id": {
-            "$oid": "3341509496378721"
+            "$oid": "47de788e82634fb2ffffffff"
         },
         "name": "DoLTEst: In-depth Downlink Negative Testing Framework for LTE Devices",
         "initState": {
@@ -538,7 +538,7 @@
     },
     {
         "_id": {
-            "$oid": "4a6654d231d485d4"
+            "$oid": "1f0178e037d86a9ffffffff"
         },
         "name": "Practical Attacks Against Privacy and Availability in 4G/LTE Mobile Communication Systems",
         "initState": {
@@ -566,7 +566,7 @@
     },
     {
         "_id": {
-            "$oid": "15022bc1027414fd"
+            "$oid": "7d4a292129331629ffffffff"
         },
         "name": "Practical Attacks Against Privacy and Availability in 4G/LTE Mobile Communication Systems",
         "initState": {
@@ -596,7 +596,7 @@
     },
     {
         "_id": {
-            "$oid": "66ca2eb13e005949"
+            "$oid": "61dbab55f3025e7ffffffff"
         },
         "name": "SigUnder: a Stealthy 5G Low Power Attack and Defenses",
         "initState": {
@@ -620,7 +620,7 @@
     },
     {
         "_id": {
-            "$oid": "6995a21f0863c1c8"
+            "$oid": "1b13436e7440dbccffffffff"
         },
         "name": "Breaking LTE on Layer Two",
         "initState": {
@@ -646,7 +646,7 @@
     },
     {
         "_id": {
-            "$oid": "245284b7045b2135"
+            "$oid": "7422117c5979eab7ffffffff"
         },
         "name": "Breaking LTE on Layer Two",
         "initState": {
@@ -668,7 +668,7 @@
     },
     {
         "_id": {
-            "$oid": "54de53fa62e25bf2"
+            "$oid": "612aaa1125a92b0cffffffff"
         },
         "name": "Breaking LTE on Layer Two",
         "initState": {
@@ -690,7 +690,7 @@
     },
     {
         "_id": {
-            "$oid": "2ff8cd8ee2f1de9f"
+            "$oid": "1c6775f24a9f0233ffffffff"
         },
         "name": "SMS of Death: from analyzing to attacking mobile phones on a large scale",
         "initState": {
@@ -714,7 +714,7 @@
     },
     {
         "_id": {
-            "$oid": "7f8db81255da45c1"
+            "$oid": "4e9ec455e108820affffffff"
         },
         "name": "Practical Attacks Against WEP and WPA",
         "initState": {
@@ -738,7 +738,7 @@
     },
     {
         "_id": {
-            "$oid": "72bff0058cc2c744"
+            "$oid": "2a9a94a3cd939142ffffffff"
         },
         "name": "The final nail in WEP's coffin",
         "initState": {
@@ -761,7 +761,7 @@
     },
     {
         "_id": {
-            "$oid": "71de3aa51a303656"
+            "$oid": "3b06d3f426b9be88ffffffff"
         },
         "name": "The final nail in WEP's coffin",
         "initState": {
@@ -783,7 +783,7 @@
     },
     {
         "_id": {
-            "$oid": "53576555ed7e1da2"
+            "$oid": "431084aff308e6b7ffffffff"
         },
         "name": "Using the Fluhrer, Mantin, and Shamir Attack to Break WEP",
         "initState": {
@@ -806,7 +806,7 @@
     },
     {
         "_id": {
-            "$oid": "36682ffaaa087336"
+            "$oid": "7b1ea24629c757daffffffff"
         },
         "name": "Key Reinstallation Attacks: Forcing Nonce Reuse in WPA2",
         "initState": {
@@ -829,7 +829,7 @@
     },
     {
         "_id": {
-            "$oid": "40643a89ccf437c3"
+            "$oid": "3b9573752abff47affffffff"
         },
         "name": "Plaintext Recovery Attacks Against WPA/TKIP",
         "initState": {

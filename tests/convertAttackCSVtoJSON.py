@@ -54,7 +54,7 @@ with open('attacks.csv') as file:
             
         #update the id with a hash of temp_dict
         #dump it to a json first to ensure stability
-        temp_dict['_id'] = {'$oid': hex(abs(hash(json.dumps(temp_dict, sort_keys=True))))[2::]}
+        temp_dict['_id'] = {'$oid': hex(abs(hash(json.dumps(temp_dict, sort_keys=True))))[2::]+'ffffffff'}
 
         #save the temp dict in the list
         attack_dict_list.append(temp_dict)
