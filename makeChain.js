@@ -6,7 +6,15 @@ class State {
 
     // Custom equality check for comparing two State objects
     equals(other) {
-        return JSON.stringify(this.params) === JSON.stringify(other.params);
+
+        // Checks if the endState is a subset of the initState
+        for (const key in this.params) {
+            if (this.params[key] !== other.params[key]) {
+                return false;
+            }
+        }
+
+        return true;
     }
 }
 

@@ -24,10 +24,10 @@ app.get('/', (req, res) => {
 // Define an endpoint to send the Chain to the client
 app.get('/makeChain', async (req, res) => {
   try {
-    // Get init state
-    const initState = loadState('.\\tests\\initState1.json');
+    // Get init state(Windows)
+    const initState = loadState('.\\tests\\initState_test1.json');
 
-    // For Unix 
+    // Get init state(Unix) 
     //const initState = loadState('./tests/initState1.json');
 
     //const initState = req.body.initState;
