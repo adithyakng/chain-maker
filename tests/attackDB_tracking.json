@@ -1,0 +1,38 @@
+[{
+    "_id": {
+      "$oid": "655841b7870e40447c3093fe"
+    },
+    "name": "5GReasoner",
+    "initState": {
+      "Knowledge of C-RNTI": "yes",
+      "Knowledge of TMSI": "yes"
+    },
+    "endState": {
+      "Knowledge of paging frame": "yes"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "655841b7870e40447c3093ff"
+    },
+    "name": "Hiding in plain sight",
+    "initState": {
+      "Knowledge of paging frame": "yes"
+    },
+    "endState": {
+      "Knowledge of coarse grained location": "yes"
+    }
+  },
+  {
+    "_id": {
+      "$oid": "655841b7870e40447c309400"
+    },
+    "name": "Practical Attacks Against Privacy and Availability in 4G",
+    "initState": {
+      "Knowledge of coarse grained location": "yes"
+    },
+    "endState": {
+      "Knowledge of fine grained location": "yes"
+    }
+  }
+]
