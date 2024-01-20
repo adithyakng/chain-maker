@@ -14,7 +14,7 @@ brew services start mongodb-community@7.0
 # Example Usage:
 
 ```bash
-
+python3 main.py
 ```
 
 ### Flowchart
