@@ -69,16 +69,20 @@ def makeChain(initState, attackDB, knowledge=set()):
         logging.info('Processing attack: %s', attack.name)
         logging.info('Info gained: %s', attack.info_gained)
         
-
+        # Iterate over each possible attack
+        # Check if the current knowledge is a superset of the information required for the attack
         if knowledge.issuperset(attack.info_required):
             logging.info('Attack is possible with current knowledge')
+            # Add the attack to the chain
             chain = [attack]
         else:
+            # skip this attack and continue with the next one in the loop
             continue
 
         # Set the initState for the next attack to be the endState of the current attack
         initState = attack.endState
 
+        # Update the knowledge with the information gained from the current attack
         knowledge.update(attack.info_gained)
 
         # Recursively find chains starting from the endState
