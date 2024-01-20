@@ -20,18 +20,3 @@ state = load_state('./tests/initState.json')
 logging.info("Running makeChain function...")
 chains = makeChain(state, attackDB)
 
-# Create a directory for the chains
-os.makedirs('chains', exist_ok=True)
-
-# Print the resulting chains
-logging.info("Printing resulting chains...")
-for i, chain in enumerate(chains):
-    chain_dicts = [attack.to_dict() for attack in chain]
-
-    # Create a filename for the chain
-    filename = f'chains/chain_{i+1}.json'
-
-    # Write the chain to the file
-    with open(filename, 'w') as f:
-        json.dump(chain_dicts, f, indent=4)
-    
