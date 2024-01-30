@@ -1,0 +1,102 @@
+[
+    {
+        "id": 1,
+        "cve": "CVE-2017-0001",
+        "name": "attackA",
+        "initState": {
+            "paramA1": "xA",
+            "paramA2": "yA"
+        },
+        "endState": {
+            "paramA1": "xB",
+            "paramA2": "yB",
+            "paramA3": "zB"
+        },
+        "info_required": [],
+        "info_gained": [
+            "knowledgeA1"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "attackB",
+        "cve": "CVE-2017-0002",
+        "initState": {
+            "paramA1": "xB",
+            "paramA2": "yB"
+        },
+        "endState": {
+            "paramB1": "z",
+            "paramB2": "z2",
+            "paramB3": "z3",
+            "paramB4": "z4"
+        },
+        "info_required": [],
+        "info_gained": [
+            "knowledgeB1",
+            "knowledgeB2"
+        ]
+    },
+    {
+        "id": 3,
+        "cve": "CVE-2017-0003",
+        "name": "attackC",
+        "initState": {
+            "paramB1": "z",
+            "paramB2": "z2",
+            "paramB3": "z3",
+            "paramB4": "z4"
+        },
+        "endState": {
+            "paramB1": "z",
+            "paramB2": "z2",
+            "paramB4": "z4"
+        },
+        "info_required": [
+            "knowledgeB1",
+            "knowledgeB2",
+            "knowledgeA1"
+        ],
+        "info_gained": [
+            "knowledgeC1"
+        ]
+    },
+    {
+        "id": 4,
+        "name": "attackD",
+        "cve": "CVE-2017-0004",
+        "initState": {
+            "paramB1": "z",
+            "paramB2": "z2",
+            "paramB3": "z3",
+            "paramB4": "z4"
+        },
+        "endState": {
+            "paramC1": "z2",
+            "paramC2": "z2"
+        },
+        "info_required": [
+            "knowledgeC2"
+        ],
+        "info_gained": []
+    },
+    {
+        "id": 5,
+        "name": "attackE",
+        "cve": "CVE-2017-0005",
+        "initState": {
+            "paramA1": "xB",
+            "paramA2": "yB"
+        },
+        "endState": {
+            "parmD1": "z",
+            "parmD2": "z2"
+        },
+        "info_required": [
+            "knowledgeC1"
+        ],
+        "info_gained": [
+            "knowledgeE1"
+        ]
+    }
+]
