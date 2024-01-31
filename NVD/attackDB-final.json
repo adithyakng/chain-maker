@@ -15,7 +15,13 @@
         "info_required": [],
         "info_gained": [
             "knowledgeA1"
-        ]
+        ],
+        "sourceIdentifier": "secure@microsoft.com",
+        "cwe": "NVD-CWE-noinfo",
+        "baseScore": 7.8,
+        "baseSeverity": "HIGH",
+        "scope": "UNCHANGED",
+        "vectorString": "CVSS:3.0/AV:L/AC:L/PR:L/UI:N/S:U/C:H/I:H/A:H"
     },
     {
         "id": 2,
@@ -35,7 +41,13 @@
         "info_gained": [
             "knowledgeB1",
             "knowledgeB2"
-        ]
+        ],
+        "sourceIdentifier": "secure@microsoft.com",
+        "cwe": "NVD-CWE-noinfo",
+        "baseScore": 8.8,
+        "baseSeverity": "HIGH",
+        "scope": "UNCHANGED",
+        "vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
     },
     {
         "id": 3,
@@ -59,7 +71,13 @@
         ],
         "info_gained": [
             "knowledgeC1"
-        ]
+        ],
+        "sourceIdentifier": "secure@microsoft.com",
+        "cwe": "CWE-119",
+        "baseScore": 7.8,
+        "baseSeverity": "HIGH",
+        "scope": "UNCHANGED",
+        "vectorString": "CVSS:3.0/AV:L/AC:L/PR:N/UI:R/S:U/C:H/I:H/A:H"
     },
     {
         "id": 4,
@@ -78,7 +96,13 @@
         "info_required": [
             "knowledgeC2"
         ],
-        "info_gained": []
+        "info_gained": [],
+        "sourceIdentifier": "secure@microsoft.com",
+        "cwe": "CWE-20",
+        "baseScore": 7.5,
+        "baseSeverity": "HIGH",
+        "scope": "UNCHANGED",
+        "vectorString": "CVSS:3.0/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H"
     },
     {
         "id": 5,
@@ -97,6 +121,12 @@
         ],
         "info_gained": [
             "knowledgeE1"
-        ]
+        ],
+        "sourceIdentifier": "secure@microsoft.com",
+        "cwe": "CWE-119",
+        "baseScore": 7.0,
+        "baseSeverity": "HIGH",
+        "scope": "UNCHANGED",
+        "vectorString": "CVSS:3.0/AV:L/AC:H/PR:L/UI:N/S:U/C:H/I:H/A:H"
     }
 ]
