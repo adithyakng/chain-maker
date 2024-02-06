@@ -1,905 +1,1077 @@
 [
     {
-        "_id": {
-            "$oid": "4a8e8cca389345656fa956a3"
-        },
-        "name": "USENIX Security",
+        "id": 1,
+        "name": "Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets",
         "initState": {
-            "Bluetooth Classic (BR/EDR) MAC Address, Bluetooth Low Energy (BLE) MAC Address": "Bluetooth Classic (BR/EDR) MAC Address, Bluetooth Low Energy (BLE) MAC Address"
+            "Bluetooth Classic (BR/EDR) RCE": "Bluetooth Classic (BR/EDR) RCE"
         },
         "endState": {
             "": ""
         },
-        "initKnowledge": [
+        "conference": [
+            "USENIX Security"
+        ],
+        "open_source_repo": [
             ""
         ],
-        "endKnowledge": [
+        "cve_number": [
             ""
         ],
-        "hardwareRequirements": [
-            "Non-Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "c948ff83b0c2992613139ab1"
-        },
-        "name": "USENIX Security",
-        "initState": {
-            "": ""
-        },
-        "endState": {
-            "": ""
-        },
-        "initKnowledge": [
-            ""
-        ],
-        "endKnowledge": [
+        "info_required": [
             ""
         ],
         "hardwareRequirements": [
-            "Intrusive"
+            "Computer, Bluetooth Classic (BR/EDR) radio"
         ]
     },
     {
-        "_id": {
-            "$oid": "faabf0f13e0dc3f295ca31fa"
-        },
-        "name": "USENIX Security",
+        "id": 2,
+        "name": "Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets",
         "initState": {
-            "": ""
+            "Bluetooth Classic (BR/EDR) RCE": "Bluetooth Classic (BR/EDR) RCE"
         },
         "endState": {
             "": ""
         },
-        "initKnowledge": [
+        "conference": [
+            "USENIX Security"
+        ],
+        "open_source_repo": [
             ""
         ],
-        "endKnowledge": [
-            ""
+        "cve_number": [
+            "CVE-2019-15063"
         ],
-        "hardwareRequirements": [
-            "Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "32c40469533eb6aa93bee71c"
-        },
-        "name": "USENIX Security",
-        "initState": {
-            "": ""
-        },
-        "endState": {
-            "": ""
-        },
-        "initKnowledge": [
-            ""
-        ],
-        "endKnowledge": [
+        "info_required": [
             ""
         ],
         "hardwareRequirements": [
-            "Intrusive"
+            "Computer, Bluetooth Classic (BR/EDR) radio"
         ]
     },
     {
-        "_id": {
-            "$oid": "3bbc13b02aa5613c654b2eca"
-        },
-        "name": "IEEE S&P",
+        "id": 3,
+        "name": "https://docs.google.com/forms/u/0/d/e/1FAIpQLSeFye2VjT3x_KDJkrLGrfArgWDV2nZH9pHGNGUb0aEGivL__w/formResponse",
         "initState": {
-            "": ""
+            "Bluetooth Classic (BR/EDR) Discoverable": "Bluetooth Classic (BR/EDR) Discoverable"
         },
         "endState": {
             "": ""
         },
-        "initKnowledge": [
+        "conference": [
+            "USENIX Security"
+        ],
+        "open_source_repo": [
             ""
         ],
-        "endKnowledge": [
-            ""
+        "cve_number": [
+            "CVE-2019-11516"
         ],
-        "hardwareRequirements": [
-            "Non-Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "6242b0b3ec26a34a708a43bd"
-        },
-        "name": "USENIX Security",
-        "initState": {
-            "Bluetooth Classic (BR/EDR) MAC Address": "Bluetooth Classic (BR/EDR) MAC Address"
-        },
-        "endState": {
-            "": ""
-        },
-        "initKnowledge": [
-            ""
-        ],
-        "endKnowledge": [
+        "info_required": [
             ""
         ],
         "hardwareRequirements": [
-            "Intrusive"
+            "Computer, Bluetooth Classic (BR/EDR) radio"
         ]
     },
     {
-        "_id": {
-            "$oid": "a2437562375f8b5e05934452"
-        },
-        "name": "USENIX Security",
+        "id": 4,
+        "name": "Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets",
         "initState": {
-            "Bluetooth Classic (BR/EDR) MAC Address": "Bluetooth Classic (BR/EDR) MAC Address"
+            "Bluetooth Low Energy (BLE) Connectable, Bluetooth Low Energy (BLE) Discoverable": "Bluetooth Low Energy (BLE) Connectable, Bluetooth Low Energy (BLE) Discoverable"
         },
         "endState": {
             "": ""
         },
-        "initKnowledge": [
+        "conference": [
+            "USENIX Security"
+        ],
+        "open_source_repo": [
             ""
         ],
-        "endKnowledge": [
-            ""
+        "cve_number": [
+            "CVE-2019-13916"
         ],
-        "hardwareRequirements": [
-            "Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "0d599e5407d06aa8b879c489"
-        },
-        "name": "IEEE S&P",
-        "initState": {
-            "": ""
-        },
-        "endState": {
-            "": ""
-        },
-        "initKnowledge": [
-            ""
-        ],
-        "endKnowledge": [
+        "info_required": [
             ""
         ],
         "hardwareRequirements": [
-            "Non-Intrusive"
+            "Computer, Bluetooth Low Energy (BLE) radio"
         ]
     },
     {
-        "_id": {
-            "$oid": "d304e58ef245929912648511"
-        },
-        "name": "IEEE S&P",
+        "id": 5,
+        "name": "BluePIL: a Bluetooth-based Passive Localization Method",
         "initState": {
-            "Bluetooth Classic (BR/EDR) MAC Address, Bluetooth Classic (BR/EDR) MAC Address LAP, Bluetooth Classic (BR/EDR) MAC Address UAP": "Bluetooth Classic (BR/EDR) MAC Address, Bluetooth Classic (BR/EDR) MAC Address LAP, Bluetooth Classic (BR/EDR) MAC Address UAP"
+            "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Discoverable, Bluetooth Classic (BR/EDR) Paired, Bluetooth Classic (BR/EDR) Transmitting": "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Discoverable, Bluetooth Classic (BR/EDR) Paired, Bluetooth Classic (BR/EDR) Transmitting"
         },
         "endState": {
             "": ""
         },
-        "initKnowledge": [
-            "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Discoverable, Bluetooth Classic (BR/EDR) Paired"
+        "conference": [
+            "IEEE S&P"
         ],
-        "endKnowledge": [
-            "iPhone 8, CYW920819EVB-02, ThinkPad L390, Nokia 7, Nokia X6, Pixel 2, Pixel 3, OnePlus 6, MacBookPro 2017, iPhone 7plus, iPad 2018, Sennheiser PXC 550, Galaxy J3 2017, ThinkPad X1 3rd, HP ProBook 430 G3, iPhone 5s, Nexus 5, iPhone 6, RPi 3B+, LG K4, Motorola G3, Galaxy J5, ThinkPad 41U5008, iPad MC349LL, PLT BB903+, Philips SHB7250, Galaxy S5 mini, Galaxy J3 2016, Lenovo U430, ThinkPad X230, Lumia 530"
+        "open_source_repo": [
+            "https://gitlab.ifi.uzh.ch/rodrigues/bluepil"
         ],
-        "hardwareRequirements": [
-            "Non-Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "48a69c816552d00d559564a3"
-        },
-        "name": "USENIX Security",
-        "initState": {
-            "Bluetooth Classic (BR/EDR) MAC Address, Bluetooth Classic (BR/EDR) MAC Address LAP, Bluetooth Classic (BR/EDR) MAC Address UAP": "Bluetooth Classic (BR/EDR) MAC Address, Bluetooth Classic (BR/EDR) MAC Address LAP, Bluetooth Classic (BR/EDR) MAC Address UAP"
-        },
-        "endState": {
-            "Bluetooth Encryption Key (Kc)": "Bluetooth Encryption Key (Kc)"
-        },
-        "initKnowledge": [
-            "Bluetooth Classic (BR/EDR) Discoverable, Bluetooth Classic (BR/EDR) Paired"
+        "cve_number": [
+            ""
         ],
-        "endKnowledge": [
-            "Galaxy S9, Pixel 2, OnePlus 5, MacBookPro 2018, iPhone X, ThinkPad X1 6th, ThinkPad X1 3rd, Sennheiser PXC 550, iPad Pro 2, RPi 3B, RPi 3B+, iMac MMQA2LL/A, Nexus 5, iPhone 6, Motorola G3, LG G2, ThinkPad X230, ThinkPad KT-1255, ThinkPad 41U5008, Anker A7721, AirPods"
-        ],
-        "hardwareRequirements": [
-            "Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "cd8bd0fd27602d347bca25db"
-        },
-        "name": "ACM",
-        "initState": {
-            "": ""
-        },
-        "endState": {
-            "Bluetooh PIN": "Bluetooh PIN"
-        },
-        "initKnowledge": [
-            "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Discoverable"
-        ],
-        "endKnowledge": [
+        "info_required": [
             ""
         ],
         "hardwareRequirements": [
-            "Non-Intrusive"
+            "Computer, Bluetooth Classic (BR/EDR) radio"
         ]
     },
     {
-        "_id": {
-            "$oid": "b474e945a322882e54828cb7"
-        },
-        "name": "ACM",
+        "id": 6,
+        "name": "Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets",
         "initState": {
-            "Bluetooth Classic (BR/EDR) MAC Address": "Bluetooth Classic (BR/EDR) MAC Address"
-        },
-        "endState": {
-            "Bluetooth Encryption Key (Kc)": "Bluetooth Encryption Key (Kc)"
-        },
-        "initKnowledge": [
-            "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Paired"
-        ],
-        "endKnowledge": [
-            "iPhone 12, iPad Air 3, Macbook Pro 2018, Pixel 5, V30 Pro, V20, V8, Mate 30, Mate 9, P10, 9R, 7 Pro, Find X2 Pro, A72n 5G, X50 5G, K30 Pro, Galaxy S10, Mi 10 Pro, Mi 10"
-        ],
-        "hardwareRequirements": [
-            "Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "f8720074b5ed18e3757b71c6"
-        },
-        "name": "IEEE S&P",
-        "initState": {
-            "": ""
+            "Bluetooth Classic (BR/EDR) Paired, Bluetooth Classic (BR/EDR) Transmitting": "Bluetooth Classic (BR/EDR) Paired, Bluetooth Classic (BR/EDR) Transmitting"
         },
         "endState": {
             "": ""
         },
-        "initKnowledge": [
-            "Bluetooth Classic (BR/EDR) Paired, Bluetooth Classic (BR/EDR) Transmitting, Bluetooth Low Energy (BLE) Connectable, Bluetooth Low Energy (BLE) Discoverable, Bluetooth Low Energy (BLE) Paired, Bluetooth Low Energy (BLE) Transmitting"
+        "conference": [
+            "USENIX Security"
         ],
-        "endKnowledge": [
-            "Various android and ios devices"
+        "open_source_repo": [
+            "https://github.com/seemoo-lab/frankenstein/blob/master/doc/CVE_2019_18614.md"
         ],
-        "hardwareRequirements": [
-            "Non-Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "2032ef6cf370a4e99cd26b2b"
-        },
-        "name": "NDSS",
-        "initState": {
-            "GSM (2G) TMSI": "GSM (2G) TMSI"
-        },
-        "endState": {
-            "": ""
-        },
-        "initKnowledge": [
-            "GSM (2G) Authenticated, GSM (2G) TMSI allocated"
+        "cve_number": [
+            "CVE-2019-18614"
         ],
-        "endKnowledge": [
-            "T-mobile and AT&T GSM networks"
-        ],
-        "hardwareRequirements": [
-            "Non-Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "21ff53024117e0a59cfd1762"
-        },
-        "name": "WiSec",
-        "initState": {
-            "": ""
-        },
-        "endState": {
-            "LTE (4G) IMSI, LTE (4G) TMSI": "LTE (4G) IMSI, LTE (4G) TMSI"
-        },
-        "initKnowledge": [
-            "LTE (4G) Unauthenticated, LTE (4G) Authenticated, LTE (4G) Communicating using AES, LTE (4G) Communicating using ZUC"
-        ],
-        "endKnowledge": [
-            "Samsung Galaxy Note 20 Ultra, Samsung Note 5"
-        ],
-        "hardwareRequirements": [
-            "Non-Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "ae71498af0383dff9b0e6f68"
-        },
-        "name": "USENIX Security",
-        "initState": {
-            "": ""
-        },
-        "endState": {
-            "LTE (4G) IMSI, LTE (4G) TMSI": "LTE (4G) IMSI, LTE (4G) TMSI"
-        },
-        "initKnowledge": [
-            "LTE (4G) Unauthenticated"
-        ],
-        "endKnowledge": [
-            "Samsung Galaxy s10, Samsung Galaxy a8, Samsung Galaxy s5, Huawei P20 Lite, Huawei P20 Pro, Huawei P30 Lite, Huawei P30, Xiami Mi9, Xiaomi MiX 3, Nokia 1.3, Sony Xperia X, Google Nexus 5X, Google Pixel 2, Google Pixel 3a, Google Pixel 4, HTC U12+, OnePlus 7T, iPhone 7, iPhone 8, iPhone X, iPhone 11, iPhone 11 Pro"
-        ],
-        "hardwareRequirements": [
-            "Non-Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "ef9630b8fe1b7d826b86edd4"
-        },
-        "name": "USENIX Security",
-        "initState": {
-            "": ""
-        },
-        "endState": {
-            "LTE (4G) IMSI, LTE (4G) TMSI": "LTE (4G) IMSI, LTE (4G) TMSI"
-        },
-        "initKnowledge": [
-            "LTE (4G) Unauthenticated"
-        ],
-        "endKnowledge": [
-            "Samsung Galaxy s10, Samsung Galaxy a8, Samsung Galaxy s5, Huawei P20 Lite, Huawei P20 Pro, Huawei P30 Lite, Huawei P30, Xiami Mi9, Xiaomi MiX 3, Nokia 1.3, Sony Xperia X, Google Nexus 5X, Google Pixel 2, Google Pixel 3a, Google Pixel 4, HTC U12+, OnePlus 7T, iPhone 7, iPhone 8, iPhone X, iPhone 11, iPhone 11 Pro\n"
-        ],
-        "hardwareRequirements": [
-            "Non-Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "157b5e1bb4a0023fce4e1e28"
-        },
-        "name": "MobiCom",
-        "initState": {
-            "": ""
-        },
-        "endState": {
-            "": ""
-        },
-        "initKnowledge": [
-            "LTE (4G) Unauthenticated"
-        ],
-        "endKnowledge": [
-            "\nHuawei P20 Pro, Huawei P30, Huawei P30 Lite, Huawei P40 5G, Samsung A8, Samsung S10,\nSamsung S21 5G, LG Nexus 5X, iPhone 6S, iPhone 7, iPhone 8, iPhone 11, iPhone X, Xiaomi Mi 9, Xiaomi Mix 3 5G, Pixel 2, Pixel 3a, Pixel 4, Pixel 5 5G, OnePlus 9 Pro 5G"
-        ],
-        "hardwareRequirements": [
-            "Non-Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "b0129a381752d25feded2473"
-        },
-        "name": "USENIX Security",
-        "initState": {
-            "": ""
-        },
-        "endState": {
-            "LTE (4G) IMSI, LTE (4G) TMSI": "LTE (4G) IMSI, LTE (4G) TMSI"
-        },
-        "initKnowledge": [
-            "LTE (4G) Unauthenticated, LTE (4G) Authenticated, LTE (4G) Communicating using AES, LTE (4G) Communicating using ZUC"
-        ],
-        "endKnowledge": [
+        "info_required": [
             ""
         ],
         "hardwareRequirements": [
-            "Non-Intrusive"
+            "Computer, Bluetooth Classic (BR/EDR) radio"
         ]
     },
     {
-        "_id": {
-            "$oid": "5272b915d2ebf400b5575457"
-        },
-        "name": "USENIX Security",
+        "id": 7,
+        "name": "Frankenstein: Advanced Wireless Fuzzing to Exploit New Bluetooth Escalation Targets",
         "initState": {
-            "": ""
+            "Bluetooth Classic (BR/EDR) Idle": "Bluetooth Classic (BR/EDR) Idle"
         },
         "endState": {
-            "LTE (4G) IMSI, LTE (4G) TMSI": "LTE (4G) IMSI, LTE (4G) TMSI"
+            "": ""
         },
-        "initKnowledge": [
-            "LTE (4G) Unauthenticated"
+        "conference": [
+            "USENIX Security"
         ],
-        "endKnowledge": [
+        "open_source_repo": [
+            "https://insinuator.net/2020/04/cve-2020-0022-an-android-8-0-9-0-bluetooth-zero-click-rce-bluefrag/"
+        ],
+        "cve_number": [
+            "CVE-2020-0022"
+        ],
+        "info_required": [
             ""
         ],
         "hardwareRequirements": [
-            "Non-Intrusive"
+            "Computer, Bluetooth Classic (BR/EDR) radio"
         ]
     },
     {
-        "_id": {
-            "$oid": "150e9711ee6480e809eb6013"
-        },
-        "name": "USENIX Security",
+        "id": 8,
+        "name": "Even Black Cats Cannot Stay Hidden in the Dark: Full-band De-anonymization of Bluetooth Classic Devices",
         "initState": {
-            "": ""
+            "Bluetooth Classic (BR/EDR) Transmitting": "Bluetooth Classic (BR/EDR) Transmitting"
         },
         "endState": {
-            "LTE (4G) IMSI, LTE (4G) TMSI": "LTE (4G) IMSI, LTE (4G) TMSI"
+            "": ""
         },
-        "initKnowledge": [
-            "LTE (4G) Authenticated"
+        "conference": [
+            "IEEE S&P"
         ],
-        "endKnowledge": [
+        "open_source_repo": [
+            "https://github.com/bsnet/btsniffer"
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
             ""
         ],
         "hardwareRequirements": [
-            "Non-Intrusive"
+            "Computer, Software-Defined Radio (SDR)"
         ]
     },
     {
-        "_id": {
-            "$oid": "29ce0f902200c0596156fac5"
-        },
-        "name": "USENIX Security",
+        "id": 9,
+        "name": "BIAS: Bluetooth Impersonation AttackS",
         "initState": {
-            "": ""
+            "Bluetooth Classic (BR/EDR) Discoverable, Bluetooth Classic (BR/EDR) Transmitting": "Bluetooth Classic (BR/EDR) Discoverable, Bluetooth Classic (BR/EDR) Transmitting"
         },
         "endState": {
-            "": ""
+            "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Discoverable, Bluetooth Classic (BR/EDR) Paired": "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Discoverable, Bluetooth Classic (BR/EDR) Paired"
         },
-        "initKnowledge": [
-            "LTE (4G) Authenticated"
+        "conference": [
+            "IEEE S&P"
         ],
-        "endKnowledge": [
+        "open_source_repo": [
+            "https://github.com/francozappa/bias"
+        ],
+        "cve_number": [
+            "CVE-2020-10135"
+        ],
+        "info_required": [
             ""
         ],
         "hardwareRequirements": [
-            "Intrusive"
+            "Computer, Bluetooth Classic (BR/EDR) radio"
         ]
     },
     {
-        "_id": {
-            "$oid": "fdf8d81dda113f0bf20180a0"
-        },
-        "name": "USENIX Security",
+        "id": 10,
+        "name": "The KNOB is Broken: Exploiting Low Entropy in the Encryption Key Negotiation Of Bluetooth BR/EDR",
         "initState": {
-            "": ""
+            " Bluetooth Classic (BR/EDR) Discoverable, Bluetooth Classic (BR/EDR) Transmitting": " Bluetooth Classic (BR/EDR) Discoverable, Bluetooth Classic (BR/EDR) Transmitting"
         },
         "endState": {
-            "LTE (4G) IMSI, LTE (4G) TMSI": "LTE (4G) IMSI, LTE (4G) TMSI"
+            "Bluetooth Classic (BR/EDR) Discoverable, Bluetooth Classic (BR/EDR) Paired": "Bluetooth Classic (BR/EDR) Discoverable, Bluetooth Classic (BR/EDR) Paired"
         },
-        "initKnowledge": [
-            "LTE (4G) Unauthenticated"
+        "conference": [
+            "USENIX Security"
         ],
-        "endKnowledge": [
+        "open_source_repo": [
+            "https://github.com/francozappa/knob"
+        ],
+        "cve_number": [
+            "CVE-2019-9506"
+        ],
+        "info_required": [
+            "Bluetooth Encryption Key (Kc)"
+        ],
+        "hardwareRequirements": [
+            "Computer, Bluetooth Classic (BR/EDR) radio"
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Cracking the Bluettoth Pin",
+        "initState": {
+            "Bluetooth Classic (BR/EDR) Discoverable, Bluetooth Classic (BR/EDR) Transmitting": "Bluetooth Classic (BR/EDR) Discoverable, Bluetooth Classic (BR/EDR) Transmitting"
+        },
+        "endState": {
+            "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Discoverable": "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Discoverable"
+        },
+        "conference": [
+            "ACM"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            "Bluetooh PIN"
+        ],
+        "hardwareRequirements": [
+            "Computer, Bluetooth Classic (BR/EDR) radio"
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Blacktooth: Breaking through the Defense of Bluetooth in Silence",
+        "initState": {
+            "Bluetooth Classic (BR/EDR) Discoverable, Bluetooth Classic (BR/EDR) Transmitting": "Bluetooth Classic (BR/EDR) Discoverable, Bluetooth Classic (BR/EDR) Transmitting"
+        },
+        "endState": {
+            "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Paired": "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Paired"
+        },
+        "conference": [
+            "ACM"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            "Bluetooth Encryption Key (Kc)"
+        ],
+        "hardwareRequirements": [
+            "Computer, Bluetooth Classic (BR/EDR) radio"
+        ]
+    },
+    {
+        "id": 13,
+        "name": "Linking Bluetooth LE & Classic and Implications for Privacy-Preserving Bluetooth-Based Protocols",
+        "initState": {
+            "Bluetooth Classic (BR/EDR) Paired, Bluetooth Classic (BR/EDR) Transmitting, Bluetooth Low Energy (BLE) Connectable, Bluetooth Low Energy (BLE) Discoverable, Bluetooth Low Energy (BLE) Paired, Bluetooth Low Energy (BLE) Transmitting": "Bluetooth Classic (BR/EDR) Paired, Bluetooth Classic (BR/EDR) Transmitting, Bluetooth Low Energy (BLE) Connectable, Bluetooth Low Energy (BLE) Discoverable, Bluetooth Low Energy (BLE) Paired, Bluetooth Low Energy (BLE) Transmitting"
+        },
+        "endState": {
+            "Bluetooth Classic (BR/EDR) Paired, Bluetooth Classic (BR/EDR) Transmitting, Bluetooth Low Energy (BLE) Connectable, Bluetooth Low Energy (BLE) Discoverable, Bluetooth Low Energy (BLE) Paired, Bluetooth Low Energy (BLE) Transmitting": "Bluetooth Classic (BR/EDR) Paired, Bluetooth Classic (BR/EDR) Transmitting, Bluetooth Low Energy (BLE) Connectable, Bluetooth Low Energy (BLE) Discoverable, Bluetooth Low Energy (BLE) Paired, Bluetooth Low Energy (BLE) Transmitting"
+        },
+        "conference": [
+            "IEEE S&P"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
             ""
         ],
         "hardwareRequirements": [
-            "Non-Intrusive"
+            "Software-Defined Radio (SDR), Bluetooth Classic (BR/EDR) radio, Bluetooth Low Energy (BLE) radio"
         ]
     },
     {
-        "_id": {
-            "$oid": "f1f71758161e7cc254b808d6"
-        },
-        "name": "NDSS",
+        "id": 14,
+        "name": "Location leaks on the GSM air interface",
         "initState": {
-            "LTE (4G) IMSI, LTE (4G) TMSI": "LTE (4G) IMSI, LTE (4G) TMSI"
+            "GSM (2G) Authenticated, GSM (2G) TMSI allocated": "GSM (2G) Authenticated, GSM (2G) TMSI allocated"
         },
         "endState": {
-            "": ""
+            "GSM (2G) Authenticated, GSM (2G) TMSI allocated": "GSM (2G) Authenticated, GSM (2G) TMSI allocated"
         },
-        "initKnowledge": [
-            "LTE (4G) Authenticated, LTE (4G) Communicating using AES"
+        "conference": [
+            "NDSS"
         ],
-        "endKnowledge": [
-            "LTE enabled UE from all major brands"
+        "open_source_repo": [
+            ""
         ],
-        "hardwareRequirements": [
-            "Non-Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "b8d1bc103bb403a4cea0d760"
-        },
-        "name": "NDSS",
-        "initState": {
-            "LTE (4G) IMSI, LTE (4G) TMSI": "LTE (4G) IMSI, LTE (4G) TMSI"
-        },
-        "endState": {
-            "User Location range, User Location - Precise": "User Location range, User Location - Precise"
-        },
-        "initKnowledge": [
-            "LTE (4G) Unauthenticated, LTE (4G) Authenticated"
+        "cve_number": [
+            ""
         ],
-        "endKnowledge": [
-            "LTE enabled UE from all major brands"
-        ],
-        "hardwareRequirements": [
-            "Non-Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "ff8136c903275e382a82ef68"
-        },
-        "name": "NDSS",
-        "initState": {
-            "LTE (4G) IMSI, LTE (4G) TMSI": "LTE (4G) IMSI, LTE (4G) TMSI"
-        },
-        "endState": {
-            "GSM (2G) IMSI, GSM (2G) TMSI, UMTS (3G) IMSI, UMTS (3G) TMSI": "GSM (2G) IMSI, GSM (2G) TMSI, UMTS (3G) IMSI, UMTS (3G) TMSI"
-        },
-        "initKnowledge": [
-            "GSM (2G) Unauthenticated, CDMA (2G) Unauthenticated, UMTS (3G) Unauthenticated"
-        ],
-        "endKnowledge": [
-            "LTE enabled UE from all major brands"
-        ],
-        "hardwareRequirements": [
-            "Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "f54b6fb756f7db43ab48b4a6"
-        },
-        "name": "WiSec",
-        "initState": {
-            "": ""
-        },
-        "endState": {
-            "NR (5G-SA) SUPI, NR (5G-SA) SUCI, NR (5G-SA) TMSI": "NR (5G-SA) SUPI, NR (5G-SA) SUCI, NR (5G-SA) TMSI"
-        },
-        "initKnowledge": [
-            "NR (5G) Unauthenticated"
-        ],
-        "endKnowledge": [
+        "info_required": [
             ""
         ],
         "hardwareRequirements": [
-            "Intrusive"
+            "Computer, GSM (2G) radio, GSM (2G) Base Station"
         ]
     },
     {
-        "_id": {
-            "$oid": "782d19c52ec97e0fd5d0ebe8"
-        },
-        "name": "IEEE S&P",
+        "id": 15,
+        "name": "LTESniffer: An Open-source LTE Downlink/Uplink Eavesdropper",
         "initState": {
-            "": ""
+            "LTE (4G) Unauthenticated, LTE (4G) Authenticated, LTE (4G) Communicating using AES, LTE (4G) Communicating using ZUC": "LTE (4G) Unauthenticated, LTE (4G) Authenticated, LTE (4G) Communicating using AES, LTE (4G) Communicating using ZUC"
         },
         "endState": {
-            "LTE (4G) IMSI, LTE (4G) TMSI": "LTE (4G) IMSI, LTE (4G) TMSI"
+            "LTE (4G) Unauthenticated, LTE (4G) Authenticated, LTE (4G) Communicating using AES, LTE (4G) Communicating using ZUC": "LTE (4G) Unauthenticated, LTE (4G) Authenticated, LTE (4G) Communicating using AES, LTE (4G) Communicating using ZUC"
         },
-        "initKnowledge": [
-            "LTE (4G) Unauthenticated, LTE (4G) Authenticated, LTE (4G) Communicating using AES"
+        "conference": [
+            "WiSec"
         ],
-        "endKnowledge": [
-            "All LTE enabled UEs"
+        "open_source_repo": [
+            "https://github.com/SysSec-KAIST/LTESniffer"
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            "LTE (4G) IMSI, LTE (4G) TMSI"
         ],
         "hardwareRequirements": [
-            "Non-Intrusive"
+            "Computer, Software-Defined Radio (SDR)"
         ]
     },
     {
-        "_id": {
-            "$oid": "c2f642babe3eb4807e3ec25f"
-        },
-        "name": "IEEE S&P",
+        "id": 16,
+        "name": "LTrack: Stealthy Tracking of Mobile Phones in LTE",
         "initState": {
-            "": ""
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
         },
         "endState": {
-            "LTE (4G) TMSI": "LTE (4G) TMSI"
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
         },
-        "initKnowledge": [
-            "LTE (4G) Authenticated"
+        "conference": [
+            "USENIX Security"
         ],
-        "endKnowledge": [
-            "An LTE enabled UE"
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            "LTE (4G) IMSI, LTE (4G) TMSI"
         ],
         "hardwareRequirements": [
-            "Non-Intrusive"
+            "Computer, Software-Defined Radio (SDR)"
         ]
     },
     {
-        "_id": {
-            "$oid": "4b1850891308595491bc050e"
-        },
-        "name": "IEEE S&P",
+        "id": 17,
+        "name": "LTrack: Stealthy Tracking of Mobile Phones in LTE",
         "initState": {
-            "": ""
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
         },
         "endState": {
-            "": ""
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
         },
-        "initKnowledge": [
-            "LTE (4G) Communicating using AES"
+        "conference": [
+            "USENIX Security"
         ],
-        "endKnowledge": [
-            "COTS mobile phone (LG Nexus 5)"
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            "LTE (4G) IMSI, LTE (4G) TMSI"
         ],
         "hardwareRequirements": [
-            "Non-Intrusive"
+            "Computer, Software-Defined Radio (SDR)"
         ]
     },
     {
-        "_id": {
-            "$oid": "b3160860519b91007b5023e4"
-        },
-        "name": "USENIX Security",
+        "id": 18,
+        "name": "AdaptOver: Adaptive Overshadowing Attacks in Cellular Networks",
         "initState": {
-            "": ""
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
         },
         "endState": {
-            "": ""
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
         },
-        "initKnowledge": [
-            "GSM (2G) Authenticated, GSM (2G) Communicating using A5/0"
+        "conference": [
+            "MobiCom"
         ],
-        "endKnowledge": [
-            "Nokia, Samsung, LG,Sony Ericsson, and Motorola."
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            ""
+        ],
+        "hardwareRequirements": [
+            "Computer, Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "id": 19,
+        "name": "DoLTEst: In-depth Downlink Negative Testing Framework for LTE Devices",
+        "initState": {
+            "LTE (4G) Unauthenticated, LTE (4G) Authenticated, LTE (4G) Communicating using AES, LTE (4G) Communicating using ZUC": "LTE (4G) Unauthenticated, LTE (4G) Authenticated, LTE (4G) Communicating using AES, LTE (4G) Communicating using ZUC"
+        },
+        "endState": {
+            "LTE (4G) Unauthenticated, LTE (4G) Authenticated, LTE (4G) Communicating using AES, LTE (4G) Communicating using ZUC": "LTE (4G) Unauthenticated, LTE (4G) Authenticated, LTE (4G) Communicating using AES, LTE (4G) Communicating using ZUC"
+        },
+        "conference": [
+            "USENIX Security"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            "CVE-2019-2289"
+        ],
+        "info_required": [
+            "LTE (4G) IMSI, LTE (4G) TMSI"
+        ],
+        "hardwareRequirements": [
+            "Computer, Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "id": 20,
+        "name": "DoLTEst: In-depth Downlink Negative Testing Framework for LTE Devices",
+        "initState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
+        },
+        "endState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
+        },
+        "conference": [
+            "USENIX Security"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            "LTE (4G) IMSI, LTE (4G) TMSI"
+        ],
+        "hardwareRequirements": [
+            "Computer, Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "id": 21,
+        "name": "DoLTEst: In-depth Downlink Negative Testing Framework for LTE Devices",
+        "initState": {
+            "LTE (4G) Authenticated": "LTE (4G) Authenticated"
+        },
+        "endState": {
+            "LTE (4G) Authenticated": "LTE (4G) Authenticated"
+        },
+        "conference": [
+            "USENIX Security"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            "LTE (4G) IMSI, LTE (4G) TMSI"
+        ],
+        "hardwareRequirements": [
+            "Computer, Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "id": 22,
+        "name": "DoLTEst: In-depth Downlink Negative Testing Framework for LTE Devices",
+        "initState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
+        },
+        "endState": {
+            "LTE (4G) Authenticated": "LTE (4G) Authenticated"
+        },
+        "conference": [
+            "USENIX Security"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            ""
+        ],
+        "hardwareRequirements": [
+            "Computer, Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "id": 23,
+        "name": "DoLTEst: In-depth Downlink Negative Testing Framework for LTE Devices",
+        "initState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
+        },
+        "endState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
+        },
+        "conference": [
+            "USENIX Security"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            "LTE (4G) IMSI, LTE (4G) TMSI"
+        ],
+        "hardwareRequirements": [
+            "Computer, Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "id": 24,
+        "name": "Practical Attacks Against Privacy and Availability in 4G/LTE Mobile Communication Systems",
+        "initState": {
+            "LTE (4G) Authenticated, LTE (4G) Communicating using AES": "LTE (4G) Authenticated, LTE (4G) Communicating using AES"
+        },
+        "endState": {
+            "LTE (4G) Authenticated, LTE (4G) Communicating using AES": "LTE (4G) Authenticated, LTE (4G) Communicating using AES"
+        },
+        "conference": [
+            "NDSS"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            ""
+        ],
+        "hardwareRequirements": [
+            "Computer, Software-Defined Radio (SDR), LTE (4G) radio, LTE (4G) Base Station"
+        ]
+    },
+    {
+        "id": 25,
+        "name": "Practical Attacks Against Privacy and Availability in 4G/LTE Mobile Communication Systems",
+        "initState": {
+            "LTE (4G) Unauthenticated, LTE (4G) Authenticated": "LTE (4G) Unauthenticated, LTE (4G) Authenticated"
+        },
+        "endState": {
+            "LTE (4G) Unauthenticated, LTE (4G) Authenticated": "LTE (4G) Unauthenticated, LTE (4G) Authenticated"
+        },
+        "conference": [
+            "NDSS"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            "User Location range, User Location - Precise"
+        ],
+        "hardwareRequirements": [
+            "Computer, Software-Defined Radio (SDR), LTE (4G) radio, LTE (4G) Base Station"
+        ]
+    },
+    {
+        "id": 26,
+        "name": "Practical Attacks Against Privacy and Availability in 4G/LTE Mobile Communication Systems",
+        "initState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
+        },
+        "endState": {
+            "GSM (2G) Unauthenticated, CDMA (2G) Unauthenticated, UMTS (3G) Unauthenticated": "GSM (2G) Unauthenticated, CDMA (2G) Unauthenticated, UMTS (3G) Unauthenticated"
+        },
+        "conference": [
+            "NDSS"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            "GSM (2G) IMSI, GSM (2G) TMSI, UMTS (3G) IMSI, UMTS (3G) TMSI"
+        ],
+        "hardwareRequirements": [
+            "Computer, Software-Defined Radio (SDR), LTE (4G) radio, LTE (4G) Base Station"
+        ]
+    },
+    {
+        "id": 27,
+        "name": "SigUnder: a Stealthy 5G Low Power Attack and Defenses",
+        "initState": {
+            "NR (5G) Unauthenticated": "NR (5G) Unauthenticated"
+        },
+        "endState": {
+            "NR (5G) Unauthenticated": "NR (5G) Unauthenticated"
+        },
+        "conference": [
+            "WiSec"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            "NR (5G-SA) SUPI, NR (5G-SA) SUCI, NR (5G-SA) TMSI"
+        ],
+        "hardwareRequirements": [
+            "Computer, Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "id": 28,
+        "name": "Breaking LTE on Layer Two",
+        "initState": {
+            "LTE (4G) Unauthenticated, LTE (4G) Authenticated, LTE (4G) Communicating using AES": "LTE (4G) Unauthenticated, LTE (4G) Authenticated, LTE (4G) Communicating using AES"
+        },
+        "endState": {
+            "LTE (4G) Unauthenticated, LTE (4G) Authenticated, LTE (4G) Communicating using AES": "LTE (4G) Unauthenticated, LTE (4G) Authenticated, LTE (4G) Communicating using AES"
+        },
+        "conference": [
+            "IEEE S&P"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            "LTE (4G) IMSI, LTE (4G) TMSI"
+        ],
+        "hardwareRequirements": [
+            "Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "id": 29,
+        "name": "Breaking LTE on Layer Two",
+        "initState": {
+            "LTE (4G) Authenticated": "LTE (4G) Authenticated"
+        },
+        "endState": {
+            "LTE (4G) Authenticated": "LTE (4G) Authenticated"
+        },
+        "conference": [
+            "IEEE S&P"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            "LTE (4G) TMSI"
+        ],
+        "hardwareRequirements": [
+            "Computer, Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "id": 30,
+        "name": "Breaking LTE on Layer Two",
+        "initState": {
+            "LTE (4G) Communicating using AES": "LTE (4G) Communicating using AES"
+        },
+        "endState": {
+            "LTE (4G) Communicating using AES": "LTE (4G) Communicating using AES"
+        },
+        "conference": [
+            "IEEE S&P"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            ""
+        ],
+        "hardwareRequirements": [
+            "Computer, Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "id": 31,
+        "name": "SMS of Death: from analyzing to attacking mobile phones on a large scale",
+        "initState": {
+            "GSM (2G) Authenticated, GSM (2G) Communicating using A5/0": "GSM (2G) Authenticated, GSM (2G) Communicating using A5/0"
+        },
+        "endState": {
+            "GSM (2G) Authenticated, GSM (2G) Communicating using A5/0": "GSM (2G) Authenticated, GSM (2G) Communicating using A5/0"
+        },
+        "conference": [
+            "USENIX Security"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            ""
+        ],
+        "hardwareRequirements": [
+            "GSM (2G) radio, GSM (2G) Base Station"
+        ]
+    },
+    {
+        "id": 32,
+        "name": "Practical Attacks Against WEP and WPA",
+        "initState": {
+            "Wi-Fi Authenticated, Wi-Fi Communicating using WPA": "Wi-Fi Authenticated, Wi-Fi Communicating using WPA"
+        },
+        "endState": {
+            "Wi-Fi Authenticated, Wi-Fi Communicating using WPA, Wi-Fi Communicating using WEP": "Wi-Fi Authenticated, Wi-Fi Communicating using WPA, Wi-Fi Communicating using WEP"
+        },
+        "conference": [
+            "Unknown"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            ""
         ],
         "hardwareRequirements": [
             ""
         ]
     },
     {
-        "_id": {
-            "$oid": "97facf0ba895c4a6b1b93f4a"
-        },
-        "name": "Unknown",
+        "id": 33,
+        "name": "The final nail in WEP's coffin",
         "initState": {
-            "": ""
+            "Wi-Fi Authenticated, Wi-Fi Communicating using WEP": "Wi-Fi Authenticated, Wi-Fi Communicating using WEP"
         },
         "endState": {
-            "": ""
+            "Wi-Fi Authenticated, Wi-Fi Communicating using WEP": "Wi-Fi Authenticated, Wi-Fi Communicating using WEP"
         },
-        "initKnowledge": [
-            "Wi-Fi Authenticated, Wi-Fi Communicating using WPA, Wi-Fi Communicating using WEP"
+        "conference": [
+            "IEEE S&P"
         ],
-        "endKnowledge": [
-            "Not specified"
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            "Wi-Fi decrypted traffic"
         ],
         "hardwareRequirements": [
-            "Non-Intrusive"
+            "Computer, Wi-Fi monitor"
         ]
     },
     {
-        "_id": {
-            "$oid": "ef1a27b40036bf6585d3a3a7"
-        },
-        "name": "IEEE S&P",
+        "id": 34,
+        "name": "The final nail in WEP's coffin",
         "initState": {
-            "Wi-Fi IP Address, Wi-Fi MAC Address": "Wi-Fi IP Address, Wi-Fi MAC Address"
+            "Wi-Fi Authenticated, Wi-Fi Communicating using WEP": "Wi-Fi Authenticated, Wi-Fi Communicating using WEP"
         },
         "endState": {
-            "Wi-Fi decrypted traffic": "Wi-Fi decrypted traffic"
+            "Wi-Fi Authenticated, Wi-Fi Communicating using WEP": "Wi-Fi Authenticated, Wi-Fi Communicating using WEP"
         },
-        "initKnowledge": [
-            "Wi-Fi Authenticated, Wi-Fi Communicating using WEP"
+        "conference": [
+            "IEEE S&P"
         ],
-        "endKnowledge": [
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            "Wi-Fi decrypted traffic"
+        ],
+        "hardwareRequirements": [
+            "Computer, Wi-Fi monitor"
+        ]
+    },
+    {
+        "id": 35,
+        "name": "Using the Fluhrer, Mantin, and Shamir Attack to Break WEP",
+        "initState": {
+            "Wi-Fi Authenticated, Wi-Fi Communicating using WEP": "Wi-Fi Authenticated, Wi-Fi Communicating using WEP"
+        },
+        "endState": {
+            "Wi-Fi Authenticated, Wi-Fi Communicating using WEP": "Wi-Fi Authenticated, Wi-Fi Communicating using WEP"
+        },
+        "conference": [
+            "USENIX Security"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            "Wi-Fi decrypted traffic"
+        ],
+        "hardwareRequirements": [
+            "Computer, Wi-Fi monitor"
+        ]
+    },
+    {
+        "id": 36,
+        "name": "Key Reinstallation Attacks: Forcing Nonce Reuse in WPA2",
+        "initState": {
+            "Wi-Fi Communicating using WPA2": "Wi-Fi Communicating using WPA2"
+        },
+        "endState": {
+            "Wi-Fi Communicating using WPA2": "Wi-Fi Communicating using WPA2"
+        },
+        "conference": [
+            "CCS"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            "CVE-2017-13077"
+        ],
+        "info_required": [
+            "Wi-Fi decrypted traffic"
+        ],
+        "hardwareRequirements": [
+            "Computer, Wi-Fi monitor"
+        ]
+    },
+    {
+        "id": 37,
+        "name": "Plaintext Recovery Attacks Against WPA/TKIP",
+        "initState": {
+            "Wi-Fi Communicating using WPA": "Wi-Fi Communicating using WPA"
+        },
+        "endState": {
+            "Wi-Fi Communicating using WPA": "Wi-Fi Communicating using WPA"
+        },
+        "conference": [
+            "21st International Workshop, FSE 2014"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            "Wi-Fi decrypted traffic"
+        ],
+        "hardwareRequirements": [
+            "Computer, Wi-Fi radio"
+        ]
+    },
+    {
+        "id": 38,
+        "name": "Blue's Clues: Practical Discovery of Non-Discoverable Bluetooth Devices",
+        "initState": {
+            "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Paired, Bluetooth Classic (BR/EDR) Transmitting": "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Paired, Bluetooth Classic (BR/EDR) Transmitting"
+        },
+        "endState": {
+            "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Paired, Bluetooth Classic (BR/EDR) Transmitting": "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Paired, Bluetooth Classic (BR/EDR) Transmitting"
+        },
+        "conference": [
+            "IEEE S&P"
+        ],
+        "open_source_repo": [
+            "https://github.com/TylerTucker/BluesClues"
+        ],
+        "cve_number": [
+            "CVE-2022-24695"
+        ],
+        "info_required": [
+            "Bluetooth Classic (BR/EDR) MAC Address"
+        ],
+        "hardwareRequirements": [
+            "Computer, Software-Defined Radio (SDR), Bluetooth Classic (BR/EDR) radio"
+        ]
+    },
+    {
+        "id": 39,
+        "name": "BlueBorne",
+        "initState": {
+            "Bluetooth Classic (BR/EDR) Connectable": "Bluetooth Classic (BR/EDR) Connectable"
+        },
+        "endState": {
+            "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Transmitting, Bluetooth Classic (BR/EDR) RCE": "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Transmitting, Bluetooth Classic (BR/EDR) RCE"
+        },
+        "conference": [
+            "Whitepaper"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            "CVE-2017-1000251"
+        ],
+        "info_required": [
             ""
         ],
         "hardwareRequirements": [
-            "Non-Intrusive"
+            "Bluetooth Classic (BR/EDR) radio"
         ]
     },
     {
-        "_id": {
-            "$oid": "82a4cb2f66596605fae01e86"
-        },
-        "name": "IEEE S&P",
+        "id": 40,
+        "name": "BlueBorne",
         "initState": {
-            "Wi-Fi IP Address, Wi-Fi MAC Address": "Wi-Fi IP Address, Wi-Fi MAC Address"
+            "Bluetooth Classic (BR/EDR) Connectable": "Bluetooth Classic (BR/EDR) Connectable"
         },
         "endState": {
-            "Wi-Fi decrypted traffic": "Wi-Fi decrypted traffic"
+            "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Transmitting": "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Transmitting"
         },
-        "initKnowledge": [
-            "Wi-Fi Authenticated, Wi-Fi Communicating using WEP"
+        "conference": [
+            "Whitepaper"
         ],
-        "endKnowledge": [
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            "CVE-2017-1000250"
+        ],
+        "info_required": [
+            "Memory Bits"
+        ],
+        "hardwareRequirements": [
+            "Bluetooth Classic (BR/EDR) radio"
+        ]
+    },
+    {
+        "id": 41,
+        "name": "AdaptOver: Adaptive Overshadowing Attacks in Cellular Networks",
+        "initState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
+        },
+        "endState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
+        },
+        "conference": [
+            "MobiCom"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
+            "LTE (4G) IMSI"
+        ],
+        "hardwareRequirements": [
+            "Computer, Software-Defined Radio (SDR)"
+        ]
+    },
+    {
+        "id": 42,
+        "name": "DoLTEst: In-depth Downlink Negative Testing Framework for LTE Devices",
+        "initState": {
+            "LTE (4G) Unauthenticated, LTE (4G) Authenticated, LTE (4G) Communicating using AES, LTE (4G) Communicating using ZUC": "LTE (4G) Unauthenticated, LTE (4G) Authenticated, LTE (4G) Communicating using AES, LTE (4G) Communicating using ZUC"
+        },
+        "endState": {
+            "LTE (4G) Unauthenticated": "LTE (4G) Unauthenticated"
+        },
+        "conference": [
+            "USENIX Security"
+        ],
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            "CVE-2019-2289"
+        ],
+        "info_required": [
             ""
         ],
         "hardwareRequirements": [
-            "Non-Intrusive"
+            "Computer, Software-Defined Radio (SDR)"
         ]
     },
     {
-        "_id": {
-            "$oid": "9a3aa72f7881214a1b8427c9"
-        },
-        "name": "USENIX Security",
+        "id": 43,
+        "name": "SigUnder: a Stealthy 5G Low Power Attack and Defenses",
         "initState": {
-            "": ""
+            "NR (5G) Unauthenticated": "NR (5G) Unauthenticated"
         },
         "endState": {
-            "Wi-Fi decrypted traffic": "Wi-Fi decrypted traffic"
+            "NR (5G) Unauthenticated": "NR (5G) Unauthenticated"
         },
-        "initKnowledge": [
-            "Wi-Fi Authenticated, Wi-Fi Communicating using WEP"
+        "conference": [
+            "WiSec"
         ],
-        "endKnowledge": [
+        "open_source_repo": [
+            ""
+        ],
+        "cve_number": [
+            ""
+        ],
+        "info_required": [
             ""
         ],
         "hardwareRequirements": [
-            "Non-Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "2b2e406b7d1d2ae8598f32a3"
-        },
-        "name": "CCS",
-        "initState": {
-            "Wi-Fi IP Address, Wi-Fi MAC Address": "Wi-Fi IP Address, Wi-Fi MAC Address"
-        },
-        "endState": {
-            "Wi-Fi decrypted traffic": "Wi-Fi decrypted traffic"
-        },
-        "initKnowledge": [
-            "Wi-Fi Communicating using WPA2"
-        ],
-        "endKnowledge": [
-            "All devices using WPA2"
-        ],
-        "hardwareRequirements": [
-            "Non-Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "66889b3442d5f405736c013d"
-        },
-        "name": "21st International Workshop, FSE 2014",
-        "initState": {
-            "Wi-Fi IP Address, Wi-Fi MAC Address": "Wi-Fi IP Address, Wi-Fi MAC Address"
-        },
-        "endState": {
-            "Wi-Fi decrypted traffic": "Wi-Fi decrypted traffic"
-        },
-        "initKnowledge": [
-            "Wi-Fi Communicating using WPA"
-        ],
-        "endKnowledge": [
-            "Self generated traffic"
-        ],
-        "hardwareRequirements": [
-            "Non-Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "8d8c69c88097b43d5e2554e9"
-        },
-        "name": "IEEE S&P",
-        "initState": {
-            "": ""
-        },
-        "endState": {
-            "Bluetooth Classic (BR/EDR) MAC Address": "Bluetooth Classic (BR/EDR) MAC Address"
-        },
-        "initKnowledge": [
-            "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Paired, Bluetooth Classic (BR/EDR) Transmitting"
-        ],
-        "endKnowledge": [
-            "Blackberry 9650, HTC ADR6400L, Nintendo Switch, Galaxy Note II, Galaxy S4, Sony PS4, Gear S2 Smartwatch, Galaxy S7, Dell Precision 3510, Nexus 6P, Pixel, Pixel 3, iPhone XS, Galaxy S8+, 2019 Macbook Pro, Galaxy S10+, 2020 iPad Pro, iPhone 12"
-        ],
-        "hardwareRequirements": [
-            "Non-Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "9f5494e5ccd3569e6c504ff8"
-        },
-        "name": "Whitepaper",
-        "initState": {
-            "Bluetooth Classic (BR/EDR) MAC Address": "Bluetooth Classic (BR/EDR) MAC Address"
-        },
-        "endState": {
-            "": ""
-        },
-        "initKnowledge": [
-            "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Transmitting, Bluetooth Classic (BR/EDR) RCE"
-        ],
-        "endKnowledge": [
-            ""
-        ],
-        "hardwareRequirements": [
-            "Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "54cdd680b11c506df765e113"
-        },
-        "name": "Whitepaper",
-        "initState": {
-            "Bluetooth Classic (BR/EDR) MAC Address": "Bluetooth Classic (BR/EDR) MAC Address"
-        },
-        "endState": {
-            "Memory Bits": "Memory Bits"
-        },
-        "initKnowledge": [
-            "Bluetooth Classic (BR/EDR) Connectable, Bluetooth Classic (BR/EDR) Transmitting"
-        ],
-        "endKnowledge": [
-            ""
-        ],
-        "hardwareRequirements": [
-            "Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "3328058fe116b042d4680959"
-        },
-        "name": "MobiCom",
-        "initState": {
-            "": ""
-        },
-        "endState": {
-            "LTE (4G) IMSI": "LTE (4G) IMSI"
-        },
-        "initKnowledge": [
-            "LTE (4G) Unauthenticated"
-        ],
-        "endKnowledge": [
-            "\nHuawei P20 Pro, Huawei P30, Huawei P30 Lite, Huawei P40 5G, Samsung A8, Samsung S10,\nSamsung S21 5G, LG Nexus 5X, iPhone 6S, iPhone 7, iPhone 8, iPhone 11, iPhone X, Xiaomi Mi 9, Xiaomi Mix 3 5G, Pixel 2, Pixel 3a, Pixel 4, Pixel 5 5G, OnePlus 9 Pro 5G"
-        ],
-        "hardwareRequirements": [
-            "Non-Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "7ac13ed21481f7da3b4fbe9f"
-        },
-        "name": "USENIX Security",
-        "initState": {
-            "": ""
-        },
-        "endState": {
-            "": ""
-        },
-        "initKnowledge": [
-            "LTE (4G) Unauthenticated"
-        ],
-        "endKnowledge": [
-            ""
-        ],
-        "hardwareRequirements": [
-            "Intrusive"
-        ]
-    },
-    {
-        "_id": {
-            "$oid": "e76d07f03374eacb5995113d"
-        },
-        "name": "WiSec",
-        "initState": {
-            "": ""
-        },
-        "endState": {
-            "": ""
-        },
-        "initKnowledge": [
-            "NR (5G) Unauthenticated"
-        ],
-        "endKnowledge": [
-            ""
-        ],
-        "hardwareRequirements": [
-            "Intrusive"
+            "Computer, Software-Defined Radio (SDR)"
         ]
     }
 ]

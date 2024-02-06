@@ -3,8 +3,8 @@ import json
 
 API_KEY = "99d5cd7a-70df-4fa5-bd38-d43b53da848c"
 RATE_LIMIT = 0.7
-INPUT_FILE = './attackDB.json'
-OUTPUT_FILE = './attackDB-final.json'
+INPUT_FILE = 'tests/attackDB.json'
+OUTPUT_FILE = 'tests/attackDB-final.json'
 
 
 def read_json(filename):
