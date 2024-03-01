@@ -1,0 +1,63 @@
+version: "3.9"
+services:
+  react:
+    container_name: chain_reaction_frontend
+    build:
+      context: ./frontend
+    depends_on:
+      - flask
+    environment:
+      VITE_CHAIN_MAKER_BACKEND_URL: ${CHAIN_MAKER_BACKEND_URL}
+    volumes:
+      - ./frontend:/app/frontend
+      - /app/frontend/node_modules
+    ports:
+      - ${CHAIN_MAKER_FRONTEND_PORT}:3000
+
+  flask:
+    container_name: chain_maker_backend
+    build:
+      context: ./backend
+    env_file: .env
+    volumes:
+      - ./backend/:/app/backend
+    depends_on:
+      - db
+    ports:
+      - ${CHAIN_MAKER_BACKEND_PORT}:5000
+  
+  db:
+    container_name: chain_maker_db
+    image: mongo:7.0.5-jammy
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=${CHAIN_MAKER_DB_ROOT_USERNAME}
+      - MONGO_INITDB_ROOT_PASSWORD=${CHAIN_MAKER_DB_ROOT_PASSWORD}
+    ports:
+      - ${CHAIN_MAKER_DB_PORT}:27017
+
+  mongo-express:
+    container_name: chain_maker_db_ui
+    image: mongo-express
+    environment:
+      - ME_CONFIG_MONGODB_ADMINUSERNAME=${CHAIN_MAKER_DB_ROOT_USERNAME}
+      - ME_CONFIG_MONGODB_ADMINPASSWORD=${CHAIN_MAKER_DB_ROOT_PASSWORD}
+      - ME_CONFIG_MONGODB_SERVER=db
+      - ME_CONFIG_BASICAUTH_USERNAME=${CHAIN_MAKER_DB_UI_BASICAUTH_USER}
+      - ME_CONFIG_BASICAUTH_PASSWORD=${CHAIN_MAKER_DB_UI_BASICAUTH_PWD}
+    ports:
+      - ${CHAIN_MAKER_DB_UI_PORT}:8081
+    depends_on:
+      - db
+    restart: unless-stopped
+
+  nginx:
+    depends_on:
+      - flask
+      - react
+      - db
+    restart: always
+    build:
+      context: ./nginx
+      dockerfile: Dockerfile
+    ports:
+      - ${CHAIN_MAKER_NGINX_PORT}:80
