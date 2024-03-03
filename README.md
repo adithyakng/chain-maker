@@ -1,14 +1,10 @@
 # Installation
 
-On MAC,
+1. Install docker and docker compose
+2. on the root directory of this folder, run the following command:
 
-Install [MongoDB Compass](https://www.mongodb.com/try/download/compass) on your machine. Then, follow these instructions to install and start the MongoDB service.
-
-```bash
-brew tap mongodb/brew
-brew update
-brew install mongodb-community@7.0
-brew services start mongodb-community@7.0
+```
+docker compose up
 ```
 
 # Example Usage:
@@ -19,6 +15,7 @@ curl -X POST -H "Content-Type: application/json" -d '{"initState": {"paramA1":"x
 ```
 
 ## For Local Usage:
+
 ```bash
 # Set the tests/attackDB.json
 # Set the tests/initState.json
@@ -27,4 +24,5 @@ python3 main.py
 ```
 
 ### Flowchart
-![image](./Flowchart.png)
+
+![image](./backend/assets/Flowchart.png)
