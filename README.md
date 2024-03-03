@@ -9,17 +9,12 @@ docker compose up
 
 # Example Usage:
 
-```bash
-python3 app.py
-curl -X POST -H "Content-Type: application/json" -d '{"initState": {"paramA1":"xA", "paramA2":"yA"}}' http://127.0.0.1:5000/api/chains
-```
-
-## For Local Usage:
-
+### Test API
 ```bash
 # Set the tests/attackDB.json
 # Set the tests/initState.json
-python3 main.py
+docker-compose up
+curl -X POST -H "Content-Type: application/json" -d '{"initState": {"paramA1":"xA", "paramA2":"yA"}}' http://127.0.0.1:5000/api/chains
 # Chains identified within attackDB.json will be stored in the 'chains' directory.
 ```
 
