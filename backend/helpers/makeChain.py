@@ -97,7 +97,7 @@ def makeChain(initState, attackDB, knowledge=set(), attacksVisited={}):
         initState = attack.endState
 
         # Recursively find chains starting from the endState
-        subChains = makeChain(initState, attackDB, knowledge)
+        subChains = makeChain(initState, attackDB, knowledge, attacksVisited)
         for subChain in subChains:
             chains.append(chain + subChain)
 
