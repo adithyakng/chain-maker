@@ -19,4 +19,9 @@ state = load_state('./tests/initState.json')
 # Run the makeChain function with the loaded state and AttackDB
 logging.info("Running makeChain function...")
 chains = makeChain(state, attackDB)
+chainIndex = 0
+for idx, attack_list in enumerate(chains):
+    print(f"Attack List {idx}:")
+    for attack in attack_list:
+        print(attack)
 

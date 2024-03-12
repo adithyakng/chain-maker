@@ -22,12 +22,13 @@ class State:
 
 
 class Attack:
-    def __init__(self, name, initState, endState, info_required, info_gained):
+    def __init__(self, name, initState, endState, info_required, info_gained, id):
         self.name = name
         self.initState = initState
         self.endState = endState
         self.info_required = info_required
         self.info_gained = info_gained
+        self.id = id
     
     def __str__(self):
         return f"Attack: {self.name}, Init State: {self.initState}, End State: {self.endState}"
@@ -37,6 +38,7 @@ class Attack:
             'name': self.name,
             'initState': self.initState.to_dict(),
             'endState': self.endState.to_dict(),
+            'id': self.id
         }
 
 
@@ -58,14 +60,13 @@ of the information required for the attack.
 4) The end state of the attack is set as the initial state for the next attack, before recursively 
 calling the function again.
 """
-def makeChain(initState, attackDB, knowledge=set()):
+def makeChain(initState, attackDB, knowledge=set(), attacksVisited={}):
     logging.info('Starting makeChain with initState: %s', initState.params)
     chains = []
-
     logging.info('Current knowledge: %s', knowledge)
 
     # Find attacks with matching initState and knowledge
-    matchingAttacks = [attack for attack in attackDB.attacks if attack.initState.equals(initState)]
+    matchingAttacks = [attack for attack in attackDB.attacks if attack.initState.equals(initState) and attack.id not in attacksVisited]
 
     logging.info('Found %d matching attacks', len(matchingAttacks))
     for attack in matchingAttacks:
@@ -82,6 +83,9 @@ def makeChain(initState, attackDB, knowledge=set()):
             logging.info('Attack is possible with current knowledge')
             # Add the attack to the chain
             chain = [attack]
+
+            # Mark the attack as visited
+            attacksVisited[attack.id] = True
         else:
             # skip this attack and continue with the next one in the loop
             continue
@@ -96,6 +100,9 @@ def makeChain(initState, attackDB, knowledge=set()):
         subChains = makeChain(initState, attackDB, knowledge)
         for subChain in subChains:
             chains.append(chain + subChain)
+
+        # Mark the attack as not visited
+        attacksVisited[attack.id] = False
 
     if len(chains) == 0:
         # If no chains are found, return a chain with the current initState
