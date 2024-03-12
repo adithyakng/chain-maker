@@ -60,15 +60,14 @@
       "paramC1": "z2",
       "paramC2": "z2"
     },
-    "info_required": ["knowledgeC2"],
+    "info_required": ["knowledgeB1"],
     "info_gained": []
   },
   {
     "id": 5,
     "name": "attackE",
     "initState": {
-      "paramA1": "xB",
-      "paramA2": "yB"
+      "paramB2": "z2"
     },
     "endState": {
       "parmD1": "z",
