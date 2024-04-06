@@ -1,0 +1,14 @@
+{
+    "name": "attackL",
+    "initState": {
+      "paramB3": "z3",
+      "paramB4": "z4"
+    },
+    "endState": {
+      "paramA1": "xB",
+      "paramA2": "yB",
+      "paramA3": "zB"
+    },
+    "info_required": [],
+    "info_gained": []
+  }
