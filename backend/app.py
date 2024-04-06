@@ -99,6 +99,6 @@ def get_chains_with_end_attack():
 
 if __name__ == "__main__":
 
-    app.run(debug=True, port=5001)
+    app.run(debug=True)
     # from waitress import serve
     # serve(app, host="0.0.0.0", port=5000)
