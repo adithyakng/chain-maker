@@ -5,8 +5,10 @@ from helpers.makeChain import makeChain, AttackDB, State, Attack, makeChainWithE
 from helpers.mongoDB import getAttackDB
 import os
 import json
+from flask_cors import CORS
 
 app = Flask(__name__)
+CORS(app)
 
 # Read AttackDB from MongoDB
 DB = getAttackDB()
