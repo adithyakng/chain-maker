@@ -99,7 +99,7 @@ def check_all_init_states():
     for attack in attacks_data:
         init_state = State(attack["initState"])
         # Run the makeChain function using the initial state of each attack
-        chains = makeChain(init_state, newAttackDB, set(), {})
+        chains = makeChain(init_state, newAttackDB, set(attack["info_required"]), {})
 
         # Prepare the response for each attack
         if len(chains) == 1 and len(chains[0]) == 0:
