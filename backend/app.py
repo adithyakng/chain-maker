@@ -15,8 +15,8 @@ DB = getAttackDB()
 if not DB["success"]:
     print("MongoDB unable to connect")
     exit
-#attackDB = AttackDB(DB["attacks"])
-attackDB = AttackDB(load_attacks("/Users/adithya/Documents/CIS Spring 2024/project/chain-maker/backend/CSVToJSON/attackDB.json"))
+attackDB = AttackDB(DB["attacks"])
+#attackDB = AttackDB(load_attacks("/Users/adithya/Documents/CIS Spring 2024/project/chain-maker/backend/CSVToJSON/attackDB.json"))
 
 
 # HealthCheck
