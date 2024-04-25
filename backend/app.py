@@ -5,17 +5,18 @@ from helpers.makeChain import makeChain, AttackDB, State, Attack, makeChainWithE
 from helpers.mongoDB import getAttackDB
 import os
 import json
-from flask_cors import CORS
+from flask_cors import CORS, cross_origin
 
 app = Flask(__name__)
-CORS(app)
+CORS(app, supports_credentials=True)
 
 # Read AttackDB from MongoDB
 DB = getAttackDB()
 if not DB["success"]:
     print("MongoDB unable to connect")
     exit
-attackDB = AttackDB(DB["attacks"])
+#attackDB = AttackDB(DB["attacks"])
+attackDB = AttackDB(load_attacks("/Users/adithya/Documents/CIS Spring 2024/project/chain-maker/backend/CSVToJSON/attackDB.json"))
 
 
 # HealthCheck
@@ -25,6 +26,7 @@ def healthcheck():
 
 
 @app.route("/chains", methods=["POST"])
+@cross_origin(supports_credentials=True)
 def get_chains():
 
     try:
@@ -34,8 +36,10 @@ def get_chains():
         # Create a State object from the initState data
         initState = State(initState_data)
 
+        initial_knowledge = request.json.get("initial_knowledge", [""])
+
         # Run the makeChain function with the loaded state and AttackDB
-        chains = makeChain(initState, attackDB, set(), {})
+        chains = makeChain(initState, attackDB, set(initial_knowledge), {})
 
         # Convert the chains to a list of dictionaries
         if len(chains) == 1 and len(chains[0]) == 0:
